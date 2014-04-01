@@ -1,7 +1,7 @@
-<div class="row" style="margin-top: 200px">
+<div class="row" style="margin-top: 200px" ng-controller="LoginCtrl">
   <div class="large-4 large-centered columns">
-    <h4 class="large-centered" style="text-align: center">Login</h4>
     <input type="text" placeholder="Email" />
     <input type="password" placeholder="Password" />
+    <button class="button small expand" ng-click="loginObj.$login()">Login</button>
   </div>
 </div>

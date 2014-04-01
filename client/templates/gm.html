@@ -1,0 +1,84 @@
+<div class="row">
+  <div ng-controller="BaseStatsCtrl" class="baseStats">
+    <div class="large-3 columns">
+      <h5>Trenton Veris</h5>
+      <div class="row" ng-repeat="stat in baseStats">
+        <div class="small-6 columns">
+          <label for="{{stat.name}}" class="right inline">{{stat.name}}</label>
+        </div>
+        <div class="small-6 columns">
+          <input id="{{stat.name}}" type="text" value="{{stat.val}}"  ng-model="stat.val" />
+        </div>
+      </div>
+    </div>
+    <div class="large-3 columns">
+    </div>
+  </div>
+  <div class="baseStats">
+    <div class="large-3 columns">
+      <h5>Player 2</h5>
+        <div class="row">
+          <div class="small-6 columns">
+            <label for="cog" class="right inline">Cognition</label>
+          </div>
+          <div class="small-6 columns">
+            <input id="cog" type="text" value="10" />
+          </div>
+        </div>
+        <div class="row">
+          <div class="small-6 columns">
+            <label for="cor" class="right inline">Coordination</label>
+          </div>
+          <div class="small-6 columns">
+            <input id="cor" type="text" value="40" />
+          </div>
+        </div>
+        <div class="row">
+          <div class="small-6 columns">
+            <label for="int" class="right inline">Intuition</label>
+          </div>
+          <div class="small-6 columns">
+            <input id="int" type="text" value="25" />
+          </div>
+        </div>
+        <div class="row">
+          <div class="small-6 columns">
+            <label for="ref" class="right inline">Reflexes</label>
+          </div>
+          <div class="small-6 columns">
+            <input id="ref" type="text" value="35" />
+          </div>
+        </div>
+        <div class="row">
+          <div class="small-6 columns">
+            <label for="sav" class="right inline">Savvy</label>
+          </div>
+          <div class="small-6 columns">
+            <input id="sav" type="text" value="20" />
+          </div>
+        </div>
+        <div class="row">
+          <div class="small-6 columns">
+            <label for="som" class="right inline">Somatics</label>
+          </div>
+          <div class="small-6 columns">
+            <input id="som" type="text" value="30" />
+          </div>
+        </div>
+        <div class="row">
+          <div class="small-6 columns">
+            <label for="wil" class="right inline">Willpower</label>
+          </div>
+          <div class="small-6 columns">
+            <input id="wil" type="text" value="25" />
+          </div>
+        </div>
+      </div>
+      <div class="large-3 columns">
+      </div>
+    </div>
+    <div class="large-6 columns">
+      <div ng-controller="LogCtrl" style="height: 400px; background-color: #f4f4f4"></div>
+    </div>
+  </div>
+</div>
