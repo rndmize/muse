@@ -7,9 +7,15 @@ var muse = angular.module('muse');
 muse.config(['$routeProvider',
   function($routeProvider) {
     $routeProvider.
+      when('/login', {
+        templateUrl: 'templates/login.html'
+      }).
       when('/stats', {
         templateUrl: 'templates/stats.html',
         controller: 'BaseStatsCtrl'
+      }).
+      when('/gm', {
+        templateUrl: 'templates/gm.html'
       }).
       otherwise({
         redirectTo: '/'

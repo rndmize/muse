@@ -1,0 +1,944 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'node',
+1 verbose cli   '/Users/hackreactor/.nvm/v0.10.12/bin/npm',
+1 verbose cli   'install',
+1 verbose cli   'node-static',
+1 verbose cli   '-g' ]
+2 info using npm@1.4.6
+3 info using node@v0.10.12
+4 verbose cache add [ 'node-static', null ]
+5 verbose cache add name=undefined spec="node-static" args=["node-static",null]
+6 verbose parsed url { protocol: null,
+6 verbose parsed url   slashes: null,
+6 verbose parsed url   auth: null,
+6 verbose parsed url   host: null,
+6 verbose parsed url   port: null,
+6 verbose parsed url   hostname: null,
+6 verbose parsed url   hash: null,
+6 verbose parsed url   search: null,
+6 verbose parsed url   query: null,
+6 verbose parsed url   pathname: 'node-static',
+6 verbose parsed url   path: 'node-static',
+6 verbose parsed url   href: 'node-static' }
+7 silly lockFile 17070c41-node-static node-static
+8 verbose lock node-static /Users/hackreactor/.npm/17070c41-node-static.lock
+9 silly lockFile 17070c41-node-static node-static
+10 silly lockFile 17070c41-node-static node-static
+11 verbose addNamed [ 'node-static', '' ]
+12 verbose addNamed [ null, '*' ]
+13 silly lockFile 5704b874-node-static node-static@
+14 verbose lock node-static@ /Users/hackreactor/.npm/5704b874-node-static.lock
+15 silly addNameRange { name: 'node-static', range: '*', hasData: false }
+16 verbose url raw node-static
+17 verbose url resolving [ 'https://registry.npmjs.org/', './node-static' ]
+18 verbose url resolved https://registry.npmjs.org/node-static
+19 info trying registry request attempt 1 at 09:33:57
+20 http GET https://registry.npmjs.org/node-static
+21 http 200 https://registry.npmjs.org/node-static
+22 silly registry.get cb [ 200,
+22 silly registry.get   { date: 'Tue, 01 Apr 2014 16:33:58 GMT',
+22 silly registry.get     server: 'CouchDB/1.5.0 (Erlang OTP/R14B04)',
+22 silly registry.get     etag: '"95OW0BOU1L4Q2FK1DEUYIRORG"',
+22 silly registry.get     'content-type': 'application/json',
+22 silly registry.get     via: '1.1 varnish',
+22 silly registry.get     'cache-control': 'max-age=1',
+22 silly registry.get     'content-length': '117805',
+22 silly registry.get     'accept-ranges': 'bytes',
+22 silly registry.get     age: '17111',
+22 silly registry.get     'x-served-by': 'cache-v41-ASH, cache-lax1435-LAX',
+22 silly registry.get     'x-cache': 'MISS, MISS',
+22 silly registry.get     'x-cache-hits': '0, 0',
+22 silly registry.get     'x-timer': 'S1396349453.041688442,VS0,VS34,VE129,VE20585226',
+22 silly registry.get     vary: 'Accept',
+22 silly registry.get     'keep-alive': 'timeout=10, max=50',
+22 silly registry.get     connection: 'Keep-Alive' } ]
+23 silly addNameRange number 2 { name: 'node-static', range: '*', hasData: true }
+24 silly addNameRange versions [ 'node-static',
+24 silly addNameRange   [ '0.5.6',
+24 silly addNameRange     '0.5.7',
+24 silly addNameRange     '0.5.8',
+24 silly addNameRange     '0.5.9',
+24 silly addNameRange     '0.6.0',
+24 silly addNameRange     '0.6.1',
+24 silly addNameRange     '0.6.2',
+24 silly addNameRange     '0.6.3',
+24 silly addNameRange     '0.6.4',
+24 silly addNameRange     '0.6.5',
+24 silly addNameRange     '0.6.6',
+24 silly addNameRange     '0.6.7',
+24 silly addNameRange     '0.6.8',
+24 silly addNameRange     '0.6.9',
+24 silly addNameRange     '0.7.0',
+24 silly addNameRange     '0.7.1',
+24 silly addNameRange     '0.7.2',
+24 silly addNameRange     '0.7.3' ] ]
+25 verbose addNamed [ 'node-static', '0.7.3' ]
+26 verbose addNamed [ '0.7.3', '0.7.3' ]
+27 silly lockFile 41f85348-node-static-0-7-3 node-static@0.7.3
+28 verbose lock node-static@0.7.3 /Users/hackreactor/.npm/41f85348-node-static-0-7-3.lock
+29 silly lockFile cf03cc7f-ode-static-node-static-0-7-3-tgz https://registry.npmjs.org/node-static/-/node-static-0.7.3.tgz
+30 verbose lock https://registry.npmjs.org/node-static/-/node-static-0.7.3.tgz /Users/hackreactor/.npm/cf03cc7f-ode-static-node-static-0-7-3-tgz.lock
+31 verbose addRemoteTarball [ 'https://registry.npmjs.org/node-static/-/node-static-0.7.3.tgz',
+31 verbose addRemoteTarball   'fdd215e98e7a30fe830f6782046d7356102fdb3b' ]
+32 info retry fetch attempt 1 at 09:33:58
+33 verbose fetch to= /var/folders/86/xjv6qdj96s39yd35hbwz32jr0000gn/T/npm-1408-foSKS0QJ/1396370038681-0.11657806136645377/tmp.tgz
+34 http GET https://registry.npmjs.org/node-static/-/node-static-0.7.3.tgz
+35 http 200 https://registry.npmjs.org/node-static/-/node-static-0.7.3.tgz
+36 verbose tar unpack /var/folders/86/xjv6qdj96s39yd35hbwz32jr0000gn/T/npm-1408-foSKS0QJ/1396370038681-0.11657806136645377/tmp.tgz
+37 silly lockFile b74ceb19-8681-0-11657806136645377-package tar:///var/folders/86/xjv6qdj96s39yd35hbwz32jr0000gn/T/npm-1408-foSKS0QJ/1396370038681-0.11657806136645377/package
+38 verbose lock tar:///var/folders/86/xjv6qdj96s39yd35hbwz32jr0000gn/T/npm-1408-foSKS0QJ/1396370038681-0.11657806136645377/package /Users/hackreactor/.npm/b74ceb19-8681-0-11657806136645377-package.lock
+39 silly lockFile 2e7a584a-8681-0-11657806136645377-tmp-tgz tar:///var/folders/86/xjv6qdj96s39yd35hbwz32jr0000gn/T/npm-1408-foSKS0QJ/1396370038681-0.11657806136645377/tmp.tgz
+40 verbose lock tar:///var/folders/86/xjv6qdj96s39yd35hbwz32jr0000gn/T/npm-1408-foSKS0QJ/1396370038681-0.11657806136645377/tmp.tgz /Users/hackreactor/.npm/2e7a584a-8681-0-11657806136645377-tmp-tgz.lock
+41 silly gunzTarPerm modes [ '755', '644' ]
+42 silly gunzTarPerm extractEntry package.json
+43 silly gunzTarPerm extractEntry .npmignore
+44 silly gunzTarPerm extractEntry README.md
+45 silly gunzTarPerm extractEntry LICENSE
+46 silly gunzTarPerm extractEntry benchmark/node-static-0.3.0.txt
+47 silly gunzTarPerm extractEntry bin/cli.js
+48 silly gunzTarPerm extractEntry examples/file-server.js
+49 silly gunzTarPerm extractEntry lib/node-static.js
+50 silly gunzTarPerm extractEntry lib/node-static/util.js
+51 silly gunzTarPerm extractEntry test/fixtures/hello.txt
+52 silly gunzTarPerm extractEntry test/fixtures/index.html
+53 silly gunzTarPerm extractEntry test/fixtures/there/index.html
+54 silly gunzTarPerm extractEntry test/integration/node-static-test.js
+55 silly lockFile b74ceb19-8681-0-11657806136645377-package tar:///var/folders/86/xjv6qdj96s39yd35hbwz32jr0000gn/T/npm-1408-foSKS0QJ/1396370038681-0.11657806136645377/package
+56 silly lockFile b74ceb19-8681-0-11657806136645377-package tar:///var/folders/86/xjv6qdj96s39yd35hbwz32jr0000gn/T/npm-1408-foSKS0QJ/1396370038681-0.11657806136645377/package
+57 silly lockFile 2e7a584a-8681-0-11657806136645377-tmp-tgz tar:///var/folders/86/xjv6qdj96s39yd35hbwz32jr0000gn/T/npm-1408-foSKS0QJ/1396370038681-0.11657806136645377/tmp.tgz
+58 silly lockFile 2e7a584a-8681-0-11657806136645377-tmp-tgz tar:///var/folders/86/xjv6qdj96s39yd35hbwz32jr0000gn/T/npm-1408-foSKS0QJ/1396370038681-0.11657806136645377/tmp.tgz
+59 verbose tar pack [ '/Users/hackreactor/.npm/node-static/0.7.3/package.tgz',
+59 verbose tar pack   '/var/folders/86/xjv6qdj96s39yd35hbwz32jr0000gn/T/npm-1408-foSKS0QJ/1396370038681-0.11657806136645377/package' ]
+60 verbose tarball /Users/hackreactor/.npm/node-static/0.7.3/package.tgz
+61 verbose folder /var/folders/86/xjv6qdj96s39yd35hbwz32jr0000gn/T/npm-1408-foSKS0QJ/1396370038681-0.11657806136645377/package
+62 silly lockFile b74ceb19-8681-0-11657806136645377-package tar:///var/folders/86/xjv6qdj96s39yd35hbwz32jr0000gn/T/npm-1408-foSKS0QJ/1396370038681-0.11657806136645377/package
+63 verbose lock tar:///var/folders/86/xjv6qdj96s39yd35hbwz32jr0000gn/T/npm-1408-foSKS0QJ/1396370038681-0.11657806136645377/package /Users/hackreactor/.npm/b74ceb19-8681-0-11657806136645377-package.lock
+64 silly lockFile 9452ae20-pm-node-static-0-7-3-package-tgz tar:///Users/hackreactor/.npm/node-static/0.7.3/package.tgz
+65 verbose lock tar:///Users/hackreactor/.npm/node-static/0.7.3/package.tgz /Users/hackreactor/.npm/9452ae20-pm-node-static-0-7-3-package-tgz.lock
+66 silly lockFile b74ceb19-8681-0-11657806136645377-package tar:///var/folders/86/xjv6qdj96s39yd35hbwz32jr0000gn/T/npm-1408-foSKS0QJ/1396370038681-0.11657806136645377/package
+67 silly lockFile b74ceb19-8681-0-11657806136645377-package tar:///var/folders/86/xjv6qdj96s39yd35hbwz32jr0000gn/T/npm-1408-foSKS0QJ/1396370038681-0.11657806136645377/package
+68 silly lockFile 9452ae20-pm-node-static-0-7-3-package-tgz tar:///Users/hackreactor/.npm/node-static/0.7.3/package.tgz
+69 silly lockFile 9452ae20-pm-node-static-0-7-3-package-tgz tar:///Users/hackreactor/.npm/node-static/0.7.3/package.tgz
+70 silly lockFile 215a84c9-or-npm-node-static-0-7-3-package /Users/hackreactor/.npm/node-static/0.7.3/package
+71 verbose lock /Users/hackreactor/.npm/node-static/0.7.3/package /Users/hackreactor/.npm/215a84c9-or-npm-node-static-0-7-3-package.lock
+72 silly lockFile 215a84c9-or-npm-node-static-0-7-3-package /Users/hackreactor/.npm/node-static/0.7.3/package
+73 silly lockFile 215a84c9-or-npm-node-static-0-7-3-package /Users/hackreactor/.npm/node-static/0.7.3/package
+74 verbose tar unpack /Users/hackreactor/.npm/node-static/0.7.3/package.tgz
+75 silly lockFile 41d39aa1-or-npm-node-static-0-7-3-package tar:///Users/hackreactor/.npm/node-static/0.7.3/package
+76 verbose lock tar:///Users/hackreactor/.npm/node-static/0.7.3/package /Users/hackreactor/.npm/41d39aa1-or-npm-node-static-0-7-3-package.lock
+77 silly lockFile 9452ae20-pm-node-static-0-7-3-package-tgz tar:///Users/hackreactor/.npm/node-static/0.7.3/package.tgz
+78 verbose lock tar:///Users/hackreactor/.npm/node-static/0.7.3/package.tgz /Users/hackreactor/.npm/9452ae20-pm-node-static-0-7-3-package-tgz.lock
+79 silly gunzTarPerm modes [ '755', '644' ]
+80 silly gunzTarPerm extractEntry package.json
+81 silly gunzTarPerm extractEntry .npmignore
+82 silly gunzTarPerm extractEntry README.md
+83 silly gunzTarPerm extractEntry LICENSE
+84 silly gunzTarPerm extractEntry benchmark/node-static-0.3.0.txt
+85 silly gunzTarPerm extractEntry bin/cli.js
+86 silly gunzTarPerm extractEntry examples/file-server.js
+87 silly gunzTarPerm extractEntry lib/node-static.js
+88 silly gunzTarPerm extractEntry lib/node-static/util.js
+89 silly gunzTarPerm extractEntry test/fixtures/hello.txt
+90 silly gunzTarPerm extractEntry test/fixtures/index.html
+91 silly gunzTarPerm extractEntry test/fixtures/there/index.html
+92 silly gunzTarPerm extractEntry test/integration/node-static-test.js
+93 silly lockFile 41d39aa1-or-npm-node-static-0-7-3-package tar:///Users/hackreactor/.npm/node-static/0.7.3/package
+94 silly lockFile 41d39aa1-or-npm-node-static-0-7-3-package tar:///Users/hackreactor/.npm/node-static/0.7.3/package
+95 silly lockFile 9452ae20-pm-node-static-0-7-3-package-tgz tar:///Users/hackreactor/.npm/node-static/0.7.3/package.tgz
+96 silly lockFile 9452ae20-pm-node-static-0-7-3-package-tgz tar:///Users/hackreactor/.npm/node-static/0.7.3/package.tgz
+97 verbose chmod /Users/hackreactor/.npm/node-static/0.7.3/package.tgz 644
+98 verbose chown /Users/hackreactor/.npm/node-static/0.7.3/package.tgz [ 501, 20 ]
+99 silly lockFile cf03cc7f-ode-static-node-static-0-7-3-tgz https://registry.npmjs.org/node-static/-/node-static-0.7.3.tgz
+100 silly lockFile cf03cc7f-ode-static-node-static-0-7-3-tgz https://registry.npmjs.org/node-static/-/node-static-0.7.3.tgz
+101 silly lockFile 41f85348-node-static-0-7-3 node-static@0.7.3
+102 silly lockFile 41f85348-node-static-0-7-3 node-static@0.7.3
+103 silly lockFile 5704b874-node-static node-static@
+104 silly lockFile 5704b874-node-static node-static@
+105 silly resolved [ { name: 'node-static',
+105 silly resolved     description: 'simple, compliant file streaming module for node',
+105 silly resolved     url: 'http://github.com/cloudhead/node-static',
+105 silly resolved     keywords: [ 'http', 'static', 'file', 'server' ],
+105 silly resolved     author: { name: 'Alexis Sellier', email: 'self@cloudhead.net' },
+105 silly resolved     contributors: [ [Object] ],
+105 silly resolved     repository: { type: 'git', url: 'http://github.com/cloudhead/node-static' },
+105 silly resolved     main: './lib/node-static',
+105 silly resolved     scripts: { test: 'vows --spec --isolate' },
+105 silly resolved     bin: { static: 'bin/cli.js' },
+105 silly resolved     license: 'MIT',
+105 silly resolved     dependencies: { optimist: '>=0.3.4', colors: '>=0.6.0', mime: '>=1.2.9' },
+105 silly resolved     devDependencies: { request: 'latest', vows: 'latest' },
+105 silly resolved     version: '0.7.3',
+105 silly resolved     engines: { node: '>= 0.4.1' },
+105 silly resolved     readme: 'node-static\n===========\n\n> a simple, *rfc 2616 compliant* file streaming module for [node](http://nodejs.org)\n\nnode-static has an in-memory file cache, making it highly efficient.\nnode-static understands and supports *conditional GET* and *HEAD* requests.\nnode-static was inspired by some of the other static-file serving modules out there,\nsuch as node-paperboy and antinode.\n\nSynopsis\n--------\n\n    var static = require(\'node-static\');\n\n    //\n    // Create a node-static server instance to serve the \'./public\' folder\n    //\n    var file = new static.Server(\'./public\');\n\n    require(\'http\').createServer(function (request, response) {\n        request.addListener(\'end\', function () {\n            //\n            // Serve files!\n            //\n            file.serve(request, response);\n        }).resume();\n    }).listen(8080);\n\nAPI\n---\n\n### Creating a node-static Server #\n\nCreating a file server instance is as simple as:\n\n    new static.Server();\n\nThis will serve files in the current directory. If you want to serve files in a specific\ndirectory, pass it as the first argument:\n\n    new static.Server(\'./public\');\n\nYou can also specify how long the client is supposed to cache the files node-static serves:\n\n    new static.Server(\'./public\', { cache: 3600 });\n\nThis will set the `Cache-Control` header, telling clients to cache the file for an hour.\nThis is the default setting.\n\n### Serving files under a directory #\n\nTo serve files under a directory, simply call the `serve` method on a `Server` instance, passing it\nthe HTTP request and response object:\n \n    var static = require(\'node-static\');\n\n    var fileServer = new static.Server(\'./public\');\n\n    require(\'http\').createServer(function (request, response) {\n        request.addListener(\'end\', function () {\n            fileServer.serve(request, response);\n        }).resume();\n    }).listen(8080);\n\n### Serving specific files #\n\nIf you want to serve a specific file, like an error page for example, use the `serveFile` method:\n\n    fileServer.serveFile(\'/error.html\', 500, {}, request, response);\n\nThis will serve the `error.html` file, from under the file root directory, with a `500` status code.\nFor example, you could serve an error page, when the initial request wasn\'t found:\n\n    require(\'http\').createServer(function (request, response) {\n        request.addListener(\'end\', function () {\n            fileServer.serve(request, response, function (e, res) {\n                if (e && (e.status === 404)) { // If the file wasn\'t found\n                    fileServer.serveFile(\'/not-found.html\', 404, {}, request, response);\n                }\n            });\n        }).resume();\n    }).listen(8080);\n\nMore on intercepting errors bellow.\n\n### Intercepting errors & Listening #\n\nAn optional callback can be passed as last argument, it will be called every time a file\nhas been served successfully, or if there was an error serving the file:\n\n    var static = require(\'node-static\');\n    \n    var fileServer = new static.Server(\'./public\');\n\n    require(\'http\').createServer(function (request, response) {\n        request.addListener(\'end\', function () {\n            fileServer.serve(request, response, function (err, result) {\n                if (err) { // There was an error serving the file\n                    sys.error("Error serving " + request.url + " - " + err.message);\n\n                    // Respond to the client\n                    response.writeHead(err.status, err.headers);\n                    response.end();\n                }\n            });\n        }).resume();\n    }).listen(8080);\n\nNote that if you pass a callback, and there is an error serving the file, node-static\n*will not* respond to the client. This gives you the opportunity to re-route the request,\nor handle it differently.\n\nFor example, you may want to interpret a request as a static request, but if the file isn\'t found,\nsend it to an application.\n\nIf you only want to *listen* for errors, you can use *event listeners*:\n\n    fileServer.serve(request, response).addListener(\'error\', function (err) {\n        sys.error("Error serving " + request.url + " - " + err.message);\n    });\n\nWith this method, you don\'t have to explicitly send the response back, in case of an error.\n\n### Options when creating an instance of `Server` #\n\n#### `cache` #\n\nSets the `Cache-Control` header.\n\nexample: `{ cache: 7200 }`\n\nPassing a number will set the cache duration to that number of seconds.\nPassing `false` will disable the `Cache-Control` header.\n\n> Defaults to `3600`\n\n\n#### `serverInfo` #\n\nSets the `Server` header.\n\nexample: `{ serverInfo: "myserver" }`\n\n> Defaults to `node-static/{version}`\n\n#### `headers` #\n\nSets response headers.\n\nexample: `{ \'X-Hello\': \'World!\' }`\n\n> defaults to `{}`\n\n#### `gzip` #\n\nEnable support for sending compressed responses.  This will enable a check for a\nfile with the same name plus \'.gz\' in the same folder.  If the compressed file is\nfound and the client has indicated support for gzip file transfer, the contents\nof the .gz file will be sent in place of the uncompressed file along with a\nContent-Encoding: gzip header to inform the client the data has been compressed.\n\nexample: `{ gzip: true }`\nexample: `{ gzip: /^\\/text/ }`\n\nPassing `true` will enable this check for all files.\nPassing a RegExp instance will only enable this check if the content-type of the\nrespond would match that RegExp using its test() method.\n\n> Defaults to `false`\n\n\nCommand Line Interface\n----------------------\n\n`node-static` also provides a CLI.\n\n### Installation #\n\n    $ npm install -g node-static\n\n### Example Usage #\n\n    # serve up the current directory\n    $ static\n    serving "." at http://127.0.0.1:8080\n\n    # serve up a different directory\n    $ static public\n    serving "public" at http://127.0.0.1:8080\n\n    # specify additional headers (this one is useful for development)\n    $ static -H \'{"Cache-Control": "no-cache, must-revalidate"}\'\n    serving "." at http://127.0.0.1:8080\n\n    # set cache control max age\n    $ static -c 7200\n    serving "." at http://127.0.0.1:8080\n\n    # show help message, including all options\n    $ static -h\n',
+105 silly resolved     readmeFilename: 'README.md',
+105 silly resolved     bugs: { url: 'https://github.com/cloudhead/node-static/issues' },
+105 silly resolved     homepage: 'https://github.com/cloudhead/node-static',
+105 silly resolved     _id: 'node-static@0.7.3',
+105 silly resolved     dist: { shasum: 'fdd215e98e7a30fe830f6782046d7356102fdb3b' },
+105 silly resolved     _from: 'node-static@',
+105 silly resolved     _resolved: 'https://registry.npmjs.org/node-static/-/node-static-0.7.3.tgz' } ]
+106 info install node-static@0.7.3 into /Users/hackreactor/.nvm/v0.10.12/lib
+107 info installOne node-static@0.7.3
+108 info /Users/hackreactor/.nvm/v0.10.12/lib/node_modules/node-static unbuild
+109 verbose tar unpack /Users/hackreactor/.npm/node-static/0.7.3/package.tgz
+110 silly lockFile 4442ed04--12-lib-node-modules-node-static tar:///Users/hackreactor/.nvm/v0.10.12/lib/node_modules/node-static
+111 verbose lock tar:///Users/hackreactor/.nvm/v0.10.12/lib/node_modules/node-static /Users/hackreactor/.npm/4442ed04--12-lib-node-modules-node-static.lock
+112 silly lockFile 9452ae20-pm-node-static-0-7-3-package-tgz tar:///Users/hackreactor/.npm/node-static/0.7.3/package.tgz
+113 verbose lock tar:///Users/hackreactor/.npm/node-static/0.7.3/package.tgz /Users/hackreactor/.npm/9452ae20-pm-node-static-0-7-3-package-tgz.lock
+114 silly gunzTarPerm modes [ '755', '644' ]
+115 silly gunzTarPerm extractEntry package.json
+116 silly gunzTarPerm extractEntry .npmignore
+117 silly gunzTarPerm extractEntry README.md
+118 silly gunzTarPerm extractEntry LICENSE
+119 silly gunzTarPerm extractEntry benchmark/node-static-0.3.0.txt
+120 silly gunzTarPerm extractEntry bin/cli.js
+121 silly gunzTarPerm extractEntry examples/file-server.js
+122 silly gunzTarPerm extractEntry lib/node-static.js
+123 silly gunzTarPerm extractEntry lib/node-static/util.js
+124 silly gunzTarPerm extractEntry test/fixtures/hello.txt
+125 silly gunzTarPerm extractEntry test/fixtures/index.html
+126 silly gunzTarPerm extractEntry test/fixtures/there/index.html
+127 silly gunzTarPerm extractEntry test/integration/node-static-test.js
+128 silly lockFile 4442ed04--12-lib-node-modules-node-static tar:///Users/hackreactor/.nvm/v0.10.12/lib/node_modules/node-static
+129 silly lockFile 4442ed04--12-lib-node-modules-node-static tar:///Users/hackreactor/.nvm/v0.10.12/lib/node_modules/node-static
+130 silly lockFile 9452ae20-pm-node-static-0-7-3-package-tgz tar:///Users/hackreactor/.npm/node-static/0.7.3/package.tgz
+131 silly lockFile 9452ae20-pm-node-static-0-7-3-package-tgz tar:///Users/hackreactor/.npm/node-static/0.7.3/package.tgz
+132 info preinstall node-static@0.7.3
+133 verbose readDependencies using package.json deps
+134 verbose readDependencies using package.json deps
+135 verbose cache add [ 'optimist@>=0.3.4', null ]
+136 verbose cache add name=undefined spec="optimist@>=0.3.4" args=["optimist@>=0.3.4",null]
+137 verbose parsed url { protocol: null,
+137 verbose parsed url   slashes: null,
+137 verbose parsed url   auth: null,
+137 verbose parsed url   host: null,
+137 verbose parsed url   port: null,
+137 verbose parsed url   hostname: null,
+137 verbose parsed url   hash: null,
+137 verbose parsed url   search: null,
+137 verbose parsed url   query: null,
+137 verbose parsed url   pathname: 'optimist@%3E=0.3.4',
+137 verbose parsed url   path: 'optimist@%3E=0.3.4',
+137 verbose parsed url   href: 'optimist@%3E=0.3.4' }
+138 verbose cache add name="optimist" spec=">=0.3.4" args=["optimist",">=0.3.4"]
+139 verbose parsed url { protocol: null,
+139 verbose parsed url   slashes: null,
+139 verbose parsed url   auth: null,
+139 verbose parsed url   host: null,
+139 verbose parsed url   port: null,
+139 verbose parsed url   hostname: null,
+139 verbose parsed url   hash: null,
+139 verbose parsed url   search: null,
+139 verbose parsed url   query: null,
+139 verbose parsed url   pathname: '%3E=0.3.4',
+139 verbose parsed url   path: '%3E=0.3.4',
+139 verbose parsed url   href: '%3E=0.3.4' }
+140 verbose addNamed [ 'optimist', '>=0.3.4' ]
+141 verbose addNamed [ null, '>=0.3.4' ]
+142 silly lockFile 748708ed-optimist-0-3-4 optimist@>=0.3.4
+143 verbose lock optimist@>=0.3.4 /Users/hackreactor/.npm/748708ed-optimist-0-3-4.lock
+144 verbose cache add [ 'colors@>=0.6.0', null ]
+145 verbose cache add name=undefined spec="colors@>=0.6.0" args=["colors@>=0.6.0",null]
+146 verbose parsed url { protocol: null,
+146 verbose parsed url   slashes: null,
+146 verbose parsed url   auth: null,
+146 verbose parsed url   host: null,
+146 verbose parsed url   port: null,
+146 verbose parsed url   hostname: null,
+146 verbose parsed url   hash: null,
+146 verbose parsed url   search: null,
+146 verbose parsed url   query: null,
+146 verbose parsed url   pathname: 'colors@%3E=0.6.0',
+146 verbose parsed url   path: 'colors@%3E=0.6.0',
+146 verbose parsed url   href: 'colors@%3E=0.6.0' }
+147 verbose cache add name="colors" spec=">=0.6.0" args=["colors",">=0.6.0"]
+148 verbose parsed url { protocol: null,
+148 verbose parsed url   slashes: null,
+148 verbose parsed url   auth: null,
+148 verbose parsed url   host: null,
+148 verbose parsed url   port: null,
+148 verbose parsed url   hostname: null,
+148 verbose parsed url   hash: null,
+148 verbose parsed url   search: null,
+148 verbose parsed url   query: null,
+148 verbose parsed url   pathname: '%3E=0.6.0',
+148 verbose parsed url   path: '%3E=0.6.0',
+148 verbose parsed url   href: '%3E=0.6.0' }
+149 verbose addNamed [ 'colors', '>=0.6.0' ]
+150 verbose addNamed [ null, '>=0.6.0' ]
+151 silly lockFile f531c285-colors-0-6-0 colors@>=0.6.0
+152 verbose lock colors@>=0.6.0 /Users/hackreactor/.npm/f531c285-colors-0-6-0.lock
+153 verbose cache add [ 'mime@>=1.2.9', null ]
+154 verbose cache add name=undefined spec="mime@>=1.2.9" args=["mime@>=1.2.9",null]
+155 verbose parsed url { protocol: null,
+155 verbose parsed url   slashes: null,
+155 verbose parsed url   auth: null,
+155 verbose parsed url   host: null,
+155 verbose parsed url   port: null,
+155 verbose parsed url   hostname: null,
+155 verbose parsed url   hash: null,
+155 verbose parsed url   search: null,
+155 verbose parsed url   query: null,
+155 verbose parsed url   pathname: 'mime@%3E=1.2.9',
+155 verbose parsed url   path: 'mime@%3E=1.2.9',
+155 verbose parsed url   href: 'mime@%3E=1.2.9' }
+156 verbose cache add name="mime" spec=">=1.2.9" args=["mime",">=1.2.9"]
+157 verbose parsed url { protocol: null,
+157 verbose parsed url   slashes: null,
+157 verbose parsed url   auth: null,
+157 verbose parsed url   host: null,
+157 verbose parsed url   port: null,
+157 verbose parsed url   hostname: null,
+157 verbose parsed url   hash: null,
+157 verbose parsed url   search: null,
+157 verbose parsed url   query: null,
+157 verbose parsed url   pathname: '%3E=1.2.9',
+157 verbose parsed url   path: '%3E=1.2.9',
+157 verbose parsed url   href: '%3E=1.2.9' }
+158 verbose addNamed [ 'mime', '>=1.2.9' ]
+159 verbose addNamed [ null, '>=1.2.9' ]
+160 silly lockFile 49a88a76-mime-1-2-9 mime@>=1.2.9
+161 verbose lock mime@>=1.2.9 /Users/hackreactor/.npm/49a88a76-mime-1-2-9.lock
+162 silly addNameRange { name: 'optimist', range: '>=0.3.4', hasData: false }
+163 silly addNameRange { name: 'mime', range: '>=1.2.9', hasData: false }
+164 silly addNameRange { name: 'colors', range: '>=0.6.0', hasData: false }
+165 verbose url raw mime
+166 verbose url resolving [ 'https://registry.npmjs.org/', './mime' ]
+167 verbose url resolved https://registry.npmjs.org/mime
+168 info trying registry request attempt 1 at 09:33:59
+169 verbose etag "2JCGOQJA7LJ9DJ1W102ZL2B7P"
+170 http GET https://registry.npmjs.org/mime
+171 verbose url raw optimist
+172 verbose url resolving [ 'https://registry.npmjs.org/', './optimist' ]
+173 verbose url resolved https://registry.npmjs.org/optimist
+174 info trying registry request attempt 1 at 09:33:59
+175 verbose etag "PA5VDCV0WJ41Q8BVL784CXVC"
+176 http GET https://registry.npmjs.org/optimist
+177 verbose url raw colors
+178 verbose url resolving [ 'https://registry.npmjs.org/', './colors' ]
+179 verbose url resolved https://registry.npmjs.org/colors
+180 info trying registry request attempt 1 at 09:33:59
+181 verbose etag "BRIPRDX6SVLFWC3VHMMF5TPQH"
+182 http GET https://registry.npmjs.org/colors
+183 http 304 https://registry.npmjs.org/optimist
+184 silly registry.get cb [ 304,
+184 silly registry.get   { date: 'Tue, 01 Apr 2014 16:33:59 GMT',
+184 silly registry.get     server: 'Apache',
+184 silly registry.get     via: '1.1 varnish',
+184 silly registry.get     'last-modified': 'Tue, 01 Apr 2014 16:33:59 GMT',
+184 silly registry.get     'cache-control': 'max-age=1',
+184 silly registry.get     etag: '"PA5VDCV0WJ41Q8BVL784CXVC"',
+184 silly registry.get     'x-served-by': 'cache-lax1430-LAX',
+184 silly registry.get     'x-cache': 'HIT',
+184 silly registry.get     'x-cache-hits': '1',
+184 silly registry.get     'x-timer': 'S1396370039.137744665,VS0,VE64',
+184 silly registry.get     vary: 'Accept',
+184 silly registry.get     'content-length': '0',
+184 silly registry.get     'keep-alive': 'timeout=10, max=50',
+184 silly registry.get     connection: 'Keep-Alive' } ]
+185 verbose etag optimist from cache
+186 http 200 https://registry.npmjs.org/mime
+187 silly registry.get cb [ 200,
+187 silly registry.get   { date: 'Tue, 01 Apr 2014 16:33:59 GMT',
+187 silly registry.get     server: 'CouchDB/1.5.0 (Erlang OTP/R16B)',
+187 silly registry.get     etag: '"BV720LAC4SHUPL70AXPAZ9ZCW"',
+187 silly registry.get     'content-type': 'application/json',
+187 silly registry.get     via: '1.1 varnish',
+187 silly registry.get     'cache-control': 'max-age=1',
+187 silly registry.get     'content-length': '26153',
+187 silly registry.get     'accept-ranges': 'bytes',
+187 silly registry.get     age: '79',
+187 silly registry.get     'x-served-by': 'cache-v43-ASH, cache-lax1427-LAX',
+187 silly registry.get     'x-cache': 'HIT, HIT',
+187 silly registry.get     'x-cache-hits': '2, 1',
+187 silly registry.get     'x-timer': 'S1396305358.917633295,VS0,VS30,VE30,VE64680288',
+187 silly registry.get     vary: 'Accept',
+187 silly registry.get     'keep-alive': 'timeout=10, max=50',
+187 silly registry.get     connection: 'Keep-Alive' } ]
+188 silly addNameRange number 2 { name: 'optimist', range: '>=0.3.4', hasData: true }
+189 silly addNameRange versions [ 'optimist',
+189 silly addNameRange   [ '0.0.1',
+189 silly addNameRange     '0.0.2',
+189 silly addNameRange     '0.0.4',
+189 silly addNameRange     '0.0.5',
+189 silly addNameRange     '0.0.6',
+189 silly addNameRange     '0.0.7',
+189 silly addNameRange     '0.1.0',
+189 silly addNameRange     '0.1.1',
+189 silly addNameRange     '0.1.2',
+189 silly addNameRange     '0.1.3',
+189 silly addNameRange     '0.1.4',
+189 silly addNameRange     '0.1.5',
+189 silly addNameRange     '0.1.6',
+189 silly addNameRange     '0.1.7',
+189 silly addNameRange     '0.1.8',
+189 silly addNameRange     '0.1.9',
+189 silly addNameRange     '0.0.3',
+189 silly addNameRange     '0.2.0',
+189 silly addNameRange     '0.2.1',
+189 silly addNameRange     '0.2.2',
+189 silly addNameRange     '0.2.3',
+189 silly addNameRange     '0.2.4',
+189 silly addNameRange     '0.2.5',
+189 silly addNameRange     '0.2.6',
+189 silly addNameRange     '0.2.7',
+189 silly addNameRange     '0.2.8',
+189 silly addNameRange     '0.3.0',
+189 silly addNameRange     '0.3.1',
+189 silly addNameRange     '0.3.3',
+189 silly addNameRange     '0.3.4',
+189 silly addNameRange     '0.3.5',
+189 silly addNameRange     '0.3.6',
+189 silly addNameRange     '0.3.7',
+189 silly addNameRange     '0.4.0',
+189 silly addNameRange     '0.5.0',
+189 silly addNameRange     '0.5.1',
+189 silly addNameRange     '0.5.2',
+189 silly addNameRange     '0.6.0',
+189 silly addNameRange     '0.6.1' ] ]
+190 verbose addNamed [ 'optimist', '0.6.1' ]
+191 verbose addNamed [ '0.6.1', '0.6.1' ]
+192 silly lockFile 0fc74eb8-optimist-0-6-1 optimist@0.6.1
+193 verbose lock optimist@0.6.1 /Users/hackreactor/.npm/0fc74eb8-optimist-0-6-1.lock
+194 silly addNameRange number 2 { name: 'mime', range: '>=1.2.9', hasData: true }
+195 silly addNameRange versions [ 'mime',
+195 silly addNameRange   [ '1.0.0',
+195 silly addNameRange     '1.1.0',
+195 silly addNameRange     '1.2.1',
+195 silly addNameRange     '1.2.2',
+195 silly addNameRange     '1.2.3',
+195 silly addNameRange     '1.2.4',
+195 silly addNameRange     '1.2.5',
+195 silly addNameRange     '1.2.6',
+195 silly addNameRange     '1.2.7',
+195 silly addNameRange     '1.2.8',
+195 silly addNameRange     '1.2.9',
+195 silly addNameRange     '1.2.10',
+195 silly addNameRange     '1.2.11' ] ]
+196 verbose addNamed [ 'mime', '1.2.11' ]
+197 verbose addNamed [ '1.2.11', '1.2.11' ]
+198 silly lockFile c4b0741f-mime-1-2-11 mime@1.2.11
+199 verbose lock mime@1.2.11 /Users/hackreactor/.npm/c4b0741f-mime-1-2-11.lock
+200 http 200 https://registry.npmjs.org/colors
+201 silly registry.get cb [ 200,
+201 silly registry.get   { date: 'Tue, 01 Apr 2014 16:33:59 GMT',
+201 silly registry.get     server: 'CouchDB/1.5.0 (Erlang OTP/R14B04)',
+201 silly registry.get     etag: '"8MI1Q4D7BXR0SPB44EM2B2JFI"',
+201 silly registry.get     'content-type': 'application/json',
+201 silly registry.get     via: '1.1 varnish',
+201 silly registry.get     'cache-control': 'max-age=1',
+201 silly registry.get     'content-length': '7815',
+201 silly registry.get     'accept-ranges': 'bytes',
+201 silly registry.get     age: '140',
+201 silly registry.get     'x-served-by': 'cache-v41-ASH, cache-lax1434-LAX',
+201 silly registry.get     'x-cache': 'HIT, HIT',
+201 silly registry.get     'x-cache-hits': '1, 1',
+201 silly registry.get     'x-timer': 'S1396305358.762729883,VS0,VS96,VE96,VE64680534',
+201 silly registry.get     vary: 'Accept',
+201 silly registry.get     'keep-alive': 'timeout=10, max=50',
+201 silly registry.get     connection: 'Keep-Alive' } ]
+202 silly addNameRange number 2 { name: 'colors', range: '>=0.6.0', hasData: true }
+203 silly addNameRange versions [ 'colors',
+203 silly addNameRange   [ '0.3.0', '0.5.0', '0.5.1', '0.6.0', '0.6.0-1', '0.6.1', '0.6.2' ] ]
+204 verbose addNamed [ 'colors', '0.6.2' ]
+205 verbose addNamed [ '0.6.2', '0.6.2' ]
+206 silly lockFile 1ce149d5-colors-0-6-2 colors@0.6.2
+207 verbose lock colors@0.6.2 /Users/hackreactor/.npm/1ce149d5-colors-0-6-2.lock
+208 silly lockFile 0fc74eb8-optimist-0-6-1 optimist@0.6.1
+209 silly lockFile 0fc74eb8-optimist-0-6-1 optimist@0.6.1
+210 silly lockFile 748708ed-optimist-0-3-4 optimist@>=0.3.4
+211 silly lockFile 748708ed-optimist-0-3-4 optimist@>=0.3.4
+212 silly lockFile c4b0741f-mime-1-2-11 mime@1.2.11
+213 silly lockFile c4b0741f-mime-1-2-11 mime@1.2.11
+214 silly lockFile 49a88a76-mime-1-2-9 mime@>=1.2.9
+215 silly lockFile 49a88a76-mime-1-2-9 mime@>=1.2.9
+216 silly lockFile 1ce149d5-colors-0-6-2 colors@0.6.2
+217 silly lockFile 1ce149d5-colors-0-6-2 colors@0.6.2
+218 silly lockFile f531c285-colors-0-6-0 colors@>=0.6.0
+219 silly lockFile f531c285-colors-0-6-0 colors@>=0.6.0
+220 silly resolved [ { name: 'optimist',
+220 silly resolved     version: '0.6.1',
+220 silly resolved     description: 'Light-weight option parsing with an argv hash. No optstrings attached.',
+220 silly resolved     main: './index.js',
+220 silly resolved     dependencies: { wordwrap: '~0.0.2', minimist: '~0.0.1' },
+220 silly resolved     devDependencies: { hashish: '~0.0.4', tap: '~0.4.0' },
+220 silly resolved     scripts: { test: 'tap ./test/*.js' },
+220 silly resolved     repository:
+220 silly resolved      { type: 'git',
+220 silly resolved        url: 'http://github.com/substack/node-optimist.git' },
+220 silly resolved     keywords:
+220 silly resolved      [ 'argument',
+220 silly resolved        'args',
+220 silly resolved        'option',
+220 silly resolved        'parser',
+220 silly resolved        'parsing',
+220 silly resolved        'cli',
+220 silly resolved        'command' ],
+220 silly resolved     author:
+220 silly resolved      { name: 'James Halliday',
+220 silly resolved        email: 'mail@substack.net',
+220 silly resolved        url: 'http://substack.net' },
+220 silly resolved     license: 'MIT/X11',
+220 silly resolved     engine: { node: '>=0.4' },
+220 silly resolved     readme: '# DEPRECATION NOTICE\n\nI don\'t want to maintain this module anymore since I just use\n[minimist](https://npmjs.org/package/minimist), the argument parsing engine,\ndirectly instead nowadays.\n\nSee [yargs](https://github.com/chevex/yargs) for the modern, pirate-themed\nsuccessor to optimist.\n\n[![yarrrrrrrgs!](http://i.imgur.com/4WFGVJ9.png)](https://github.com/chevex/yargs)\n\nYou should also consider [nomnom](https://github.com/harthur/nomnom).\n\noptimist\n========\n\nOptimist is a node.js library for option parsing for people who hate option\nparsing. More specifically, this module is for people who like all the --bells\nand -whistlz of program usage but think optstrings are a waste of time.\n\nWith optimist, option parsing doesn\'t have to suck (as much).\n\n[![build status](https://secure.travis-ci.org/substack/node-optimist.png)](http://travis-ci.org/substack/node-optimist)\n\nexamples\n========\n\nWith Optimist, the options are just a hash! No optstrings attached.\n-------------------------------------------------------------------\n\nxup.js:\n\n````javascript\n#!/usr/bin/env node\nvar argv = require(\'optimist\').argv;\n\nif (argv.rif - 5 * argv.xup > 7.138) {\n    console.log(\'Buy more riffiwobbles\');\n}\nelse {\n    console.log(\'Sell the xupptumblers\');\n}\n````\n\n***\n\n    $ ./xup.js --rif=55 --xup=9.52\n    Buy more riffiwobbles\n    \n    $ ./xup.js --rif 12 --xup 8.1\n    Sell the xupptumblers\n\n![This one\'s optimistic.](http://substack.net/images/optimistic.png)\n\nBut wait! There\'s more! You can do short options:\n-------------------------------------------------\n \nshort.js:\n\n````javascript\n#!/usr/bin/env node\nvar argv = require(\'optimist\').argv;\nconsole.log(\'(%d,%d)\', argv.x, argv.y);\n````\n\n***\n\n    $ ./short.js -x 10 -y 21\n    (10,21)\n\nAnd booleans, both long and short (and grouped):\n----------------------------------\n\nbool.js:\n\n````javascript\n#!/usr/bin/env node\nvar util = require(\'util\');\nvar argv = require(\'optimist\').argv;\n\nif (argv.s) {\n    util.print(argv.fr ? \'Le chat dit: \' : \'The cat says: \');\n}\nconsole.log(\n    (argv.fr ? \'miaou\' : \'meow\') + (argv.p ? \'.\' : \'\')\n);\n````\n\n***\n\n    $ ./bool.js -s\n    The cat says: meow\n    \n    $ ./bool.js -sp\n    The cat says: meow.\n\n    $ ./bool.js -sp --fr\n    Le chat dit: miaou.\n\nAnd non-hypenated options too! Just use `argv._`!\n-------------------------------------------------\n \nnonopt.js:\n\n````javascript\n#!/usr/bin/env node\nvar argv = require(\'optimist\').argv;\nconsole.log(\'(%d,%d)\', argv.x, argv.y);\nconsole.log(argv._);\n````\n\n***\n\n    $ ./nonopt.js -x 6.82 -y 3.35 moo\n    (6.82,3.35)\n    [ \'moo\' ]\n    \n    $ ./nonopt.js foo -x 0.54 bar -y 1.12 baz\n    (0.54,1.12)\n    [ \'foo\', \'bar\', \'baz\' ]\n\nPlus, Optimist comes with .usage() and .demand()!\n-------------------------------------------------\n\ndivide.js:\n\n````javascript\n#!/usr/bin/env node\nvar argv = require(\'optimist\')\n    .usage(\'Usage: $0 -x [num] -y [num]\')\n    .demand([\'x\',\'y\'])\n    .argv;\n\nconsole.log(argv.x / argv.y);\n````\n\n***\n \n    $ ./divide.js -x 55 -y 11\n    5\n    \n    $ node ./divide.js -x 4.91 -z 2.51\n    Usage: node ./divide.js -x [num] -y [num]\n\n    Options:\n      -x  [required]\n      -y  [required]\n\n    Missing required arguments: y\n\nEVEN MORE HOLY COW\n------------------\n\ndefault_singles.js:\n\n````javascript\n#!/usr/bin/env node\nvar argv = require(\'optimist\')\n    .default(\'x\', 10)\n    .default(\'y\', 10)\n    .argv\n;\nconsole.log(argv.x + argv.y);\n````\n\n***\n\n    $ ./default_singles.js -x 5\n    15\n\ndefault_hash.js:\n\n````javascript\n#!/usr/bin/env node\nvar argv = require(\'optimist\')\n    .default({ x : 10, y : 10 })\n    .argv\n;\nconsole.log(argv.x + argv.y);\n````\n\n***\n\n    $ ./default_hash.js -y 7\n    17\n\nAnd if you really want to get all descriptive about it...\n---------------------------------------------------------\n\nboolean_single.js\n\n````javascript\n#!/usr/bin/env node\nvar argv = require(\'optimist\')\n    .boolean(\'v\')\n    .argv\n;\nconsole.dir(argv);\n````\n\n***\n\n    $ ./boolean_single.js -v foo bar baz\n    true\n    [ \'bar\', \'baz\', \'foo\' ]\n\nboolean_double.js\n\n````javascript\n#!/usr/bin/env node\nvar argv = require(\'optimist\')\n    .boolean([\'x\',\'y\',\'z\'])\n    .argv\n;\nconsole.dir([ argv.x, argv.y, argv.z ]);\nconsole.dir(argv._);\n````\n\n***\n\n    $ ./boolean_double.js -x -z one two three\n    [ true, false, true ]\n    [ \'one\', \'two\', \'three\' ]\n\nOptimist is here to help...\n---------------------------\n\nYou can describe parameters for help messages and set aliases. Optimist figures\nout how to format a handy help string automatically.\n\nline_count.js\n\n````javascript\n#!/usr/bin/env node\nvar argv = require(\'optimist\')\n    .usage(\'Count the lines in a file.\\nUsage: $0\')\n    .demand(\'f\')\n    .alias(\'f\', \'file\')\n    .describe(\'f\', \'Load a file\')\n    .argv\n;\n\nvar fs = require(\'fs\');\nvar s = fs.createReadStream(argv.file);\n\nvar lines = 0;\ns.on(\'data\', function (buf) {\n    lines += buf.toString().match(/\\n/g).length;\n});\n\ns.on(\'end\', function () {\n    console.log(lines);\n});\n````\n\n***\n\n    $ node line_count.js\n    Count the lines in a file.\n    Usage: node ./line_count.js\n\n    Options:\n      -f, --file  Load a file  [required]\n\n    Missing required arguments: f\n\n    $ node line_count.js --file line_count.js \n    20\n    \n    $ node line_count.js -f line_count.js \n    20\n\nmethods\n=======\n\nBy itself,\n\n````javascript\nrequire(\'optimist\').argv\n`````\n\nwill use `process.argv` array to construct the `argv` object.\n\nYou can pass in the `process.argv` yourself:\n\n````javascript\nrequire(\'optimist\')([ \'-x\', \'1\', \'-y\', \'2\' ]).argv\n````\n\nor use .parse() to do the same thing:\n\n````javascript\nrequire(\'optimist\').parse([ \'-x\', \'1\', \'-y\', \'2\' ])\n````\n\nThe rest of these methods below come in just before the terminating `.argv`.\n\n.alias(key, alias)\n------------------\n\nSet key names as equivalent such that updates to a key will propagate to aliases\nand vice-versa.\n\nOptionally `.alias()` can take an object that maps keys to aliases.\n\n.default(key, value)\n--------------------\n\nSet `argv[key]` to `value` if no option was specified on `process.argv`.\n\nOptionally `.default()` can take an object that maps keys to default values.\n\n.demand(key)\n------------\n\nIf `key` is a string, show the usage information and exit if `key` wasn\'t\nspecified in `process.argv`.\n\nIf `key` is a number, demand at least as many non-option arguments, which show\nup in `argv._`.\n\nIf `key` is an Array, demand each element.\n\n.describe(key, desc)\n--------------------\n\nDescribe a `key` for the generated usage information.\n\nOptionally `.describe()` can take an object that maps keys to descriptions.\n\n.options(key, opt)\n------------------\n\nInstead of chaining together `.alias().demand().default()`, you can specify\nkeys in `opt` for each of the chainable methods.\n\nFor example:\n\n````javascript\nvar argv = require(\'optimist\')\n    .options(\'f\', {\n        alias : \'file\',\n        default : \'/etc/passwd\',\n    })\n    .argv\n;\n````\n\nis the same as\n\n````javascript\nvar argv = require(\'optimist\')\n    .alias(\'f\', \'file\')\n    .default(\'f\', \'/etc/passwd\')\n    .argv\n;\n````\n\nOptionally `.options()` can take an object that maps keys to `opt` parameters.\n\n.usage(message)\n---------------\n\nSet a usage message to show which commands to use. Inside `message`, the string\n`$0` will get interpolated to the current script name or node command for the\npresent script similar to how `$0` works in bash or perl.\n\n.check(fn)\n----------\n\nCheck that certain conditions are met in the provided arguments.\n\nIf `fn` throws or returns `false`, show the thrown error, usage information, and\nexit.\n\n.boolean(key)\n-------------\n\nInterpret `key` as a boolean. If a non-flag option follows `key` in\n`process.argv`, that string won\'t get set as the value of `key`.\n\nIf `key` never shows up as a flag in `process.arguments`, `argv[key]` will be\n`false`.\n\nIf `key` is an Array, interpret all the elements as booleans.\n\n.string(key)\n------------\n\nTell the parser logic not to interpret `key` as a number or boolean.\nThis can be useful if you need to preserve leading zeros in an input.\n\nIf `key` is an Array, interpret all the elements as strings.\n\n.wrap(columns)\n--------------\n\nFormat usage output to wrap at `columns` many columns.\n\n.help()\n-------\n\nReturn the generated usage string.\n\n.showHelp(fn=console.error)\n---------------------------\n\nPrint the usage data using `fn` for printing.\n\n.parse(args)\n------------\n\nParse `args` instead of `process.argv`. Returns the `argv` object.\n\n.argv\n-----\n\nGet the arguments as a plain old object.\n\nArguments without a corresponding flag show up in the `argv._` array.\n\nThe script name or node command is available at `argv.$0` similarly to how `$0`\nworks in bash or perl.\n\nparsing tricks\n==============\n\nstop parsing\n------------\n\nUse `--` to stop parsing flags and stuff the remainder into `argv._`.\n\n    $ node examples/reflect.js -a 1 -b 2 -- -c 3 -d 4\n    { _: [ \'-c\', \'3\', \'-d\', \'4\' ],\n      \'$0\': \'node ./examples/reflect.js\',\n      a: 1,\n      b: 2 }\n\nnegate fields\n-------------\n\nIf you want to explicity set a field to false instead of just leaving it\nundefined or to override a default you can do `--no-key`.\n\n    $ node examples/reflect.js -a --no-b\n    { _: [],\n      \'$0\': \'node ./examples/reflect.js\',\n      a: true,\n      b: false }\n\nnumbers\n-------\n\nEvery argument that looks like a number (`!isNaN(Number(arg))`) is converted to\none. This way you can just `net.createConnection(argv.port)` and you can add\nnumbers out of `argv` with `+` without having that mean concatenation,\nwhich is super frustrating.\n\nduplicates\n----------\n\nIf you specify a flag multiple times it will get turned into an array containing\nall the values in order.\n\n    $ node examples/reflect.js -x 5 -x 8 -x 0\n    { _: [],\n      \'$0\': \'node ./examples/reflect.js\',\n        x: [ 5, 8, 0 ] }\n\ndot notation\n------------\n\nWhen you use dots (`.`s) in argument names, an implicit object path is assumed.\nThis lets you organize arguments into nested objects.\n\n     $ node examples/reflect.js --foo.bar.baz=33 --foo.quux=5\n     { _: [],\n       \'$0\': \'node ./examples/reflect.js\',\n         foo: { bar: { baz: 33 }, quux: 5 } }\n\nshort numbers\n-------------\n\nShort numeric `head -n5` style argument work too:\n\n    $ node reflect.js -n123 -m456\n    { \'3\': true,\n      \'6\': true,\n      _: [],\n      \'$0\': \'node ./reflect.js\',\n      n: 123,\n      m: 456 }\n\ninstallation\n============\n\nWith [npm](http://github.com/isaacs/npm), just do:\n    npm install optimist\n \nor clone this project on github:\n\n    git clone http://github.com/substack/node-optimist.git\n\nTo run the tests with [expresso](http://github.com/visionmedia/expresso),\njust do:\n    \n    expresso\n\ninspired By\n===========\n\nThis module is loosely inspired by Perl\'s\n[Getopt::Casual](http://search.cpan.org/~photo/Getopt-Casual-0.13.1/Casual.pm).\n',
+220 silly resolved     readmeFilename: 'readme.markdown',
+220 silly resolved     bugs: { url: 'https://github.com/substack/node-optimist/issues' },
+220 silly resolved     homepage: 'https://github.com/substack/node-optimist',
+220 silly resolved     _id: 'optimist@0.6.1',
+220 silly resolved     _from: 'optimist@>=0.3.4' },
+220 silly resolved   { author:
+220 silly resolved      { name: 'Robert Kieffer',
+220 silly resolved        email: 'robert@broofa.com',
+220 silly resolved        url: 'http://github.com/broofa' },
+220 silly resolved     contributors: [ [Object] ],
+220 silly resolved     dependencies: {},
+220 silly resolved     description: 'A comprehensive library for mime-type mapping',
+220 silly resolved     devDependencies: {},
+220 silly resolved     keywords: [ 'util', 'mime' ],
+220 silly resolved     main: 'mime.js',
+220 silly resolved     name: 'mime',
+220 silly resolved     repository: { url: 'https://github.com/broofa/node-mime', type: 'git' },
+220 silly resolved     version: '1.2.11',
+220 silly resolved     readme: '# mime\n\nComprehensive MIME type mapping API. Includes all 600+ types and 800+ extensions defined by the Apache project, plus additional types submitted by the node.js community.\n\n## Install\n\nInstall with [npm](http://github.com/isaacs/npm):\n\n    npm install mime\n\n## API - Queries\n\n### mime.lookup(path)\nGet the mime type associated with a file, if no mime type is found `application/octet-stream` is returned. Performs a case-insensitive lookup using the extension in `path` (the substring after the last \'/\' or \'.\').  E.g.\n\n    var mime = require(\'mime\');\n\n    mime.lookup(\'/path/to/file.txt\');         // => \'text/plain\'\n    mime.lookup(\'file.txt\');                  // => \'text/plain\'\n    mime.lookup(\'.TXT\');                      // => \'text/plain\'\n    mime.lookup(\'htm\');                       // => \'text/html\'\n\n### mime.default_type\nSets the mime type returned when `mime.lookup` fails to find the extension searched for. (Default is `application/octet-stream`.)\n\n### mime.extension(type)\nGet the default extension for `type`\n\n    mime.extension(\'text/html\');                 // => \'html\'\n    mime.extension(\'application/octet-stream\');  // => \'bin\'\n\n### mime.charsets.lookup()\n\nMap mime-type to charset\n\n    mime.charsets.lookup(\'text/plain\');        // => \'UTF-8\'\n\n(The logic for charset lookups is pretty rudimentary.  Feel free to suggest improvements.)\n\n## API - Defining Custom Types\n\nThe following APIs allow you to add your own type mappings within your project.  If you feel a type should be included as part of node-mime, see [requesting new types](https://github.com/broofa/node-mime/wiki/Requesting-New-Types).\n\n### mime.define()\n\nAdd custom mime/extension mappings\n\n    mime.define({\n        \'text/x-some-format\': [\'x-sf\', \'x-sft\', \'x-sfml\'],\n        \'application/x-my-type\': [\'x-mt\', \'x-mtt\'],\n        // etc ...\n    });\n\n    mime.lookup(\'x-sft\');                 // => \'text/x-some-format\'\n\nThe first entry in the extensions array is returned by `mime.extension()`. E.g.\n\n    mime.extension(\'text/x-some-format\'); // => \'x-sf\'\n\n### mime.load(filepath)\n\nLoad mappings from an Apache ".types" format file\n\n    mime.load(\'./my_project.types\');\n\nThe .types file format is simple -  See the `types` dir for examples.\n',
+220 silly resolved     readmeFilename: 'README.md',
+220 silly resolved     bugs: { url: 'https://github.com/broofa/node-mime/issues' },
+220 silly resolved     homepage: 'https://github.com/broofa/node-mime',
+220 silly resolved     _id: 'mime@1.2.11',
+220 silly resolved     _from: 'mime@>=1.2.9' },
+220 silly resolved   { name: 'colors',
+220 silly resolved     description: 'get colors in your node.js console like what',
+220 silly resolved     version: '0.6.2',
+220 silly resolved     author: { name: 'Marak Squires' },
+220 silly resolved     homepage: 'https://github.com/Marak/colors.js',
+220 silly resolved     bugs: { url: 'https://github.com/Marak/colors.js/issues' },
+220 silly resolved     keywords: [ 'ansi', 'terminal', 'colors' ],
+220 silly resolved     repository: { type: 'git', url: 'http://github.com/Marak/colors.js.git' },
+220 silly resolved     engines: { node: '>=0.1.90' },
+220 silly resolved     main: 'colors',
+220 silly resolved     readme: '# colors.js - get color and style in your node.js console ( and browser ) like what\n\n<img src="http://i.imgur.com/goJdO.png" border = "0"/>\n\n\n## Installation\n\n    npm install colors\n\n## colors and styles!\n\n- bold\n- italic\n- underline\n- inverse\n- yellow\n- cyan\n- white\n- magenta\n- green\n- red\n- grey\n- blue\n- rainbow\n- zebra\n- random\n\n## Usage\n\n``` js\nvar colors = require(\'./colors\');\n\nconsole.log(\'hello\'.green); // outputs green text\nconsole.log(\'i like cake and pies\'.underline.red) // outputs red underlined text\nconsole.log(\'inverse the color\'.inverse); // inverses the color\nconsole.log(\'OMG Rainbows!\'.rainbow); // rainbow (ignores spaces)\n```\n\n# Creating Custom themes\n\n```js\n\nvar colors = require(\'colors\');\n\ncolors.setTheme({\n  silly: \'rainbow\',\n  input: \'grey\',\n  verbose: \'cyan\',\n  prompt: \'grey\',\n  info: \'green\',\n  data: \'grey\',\n  help: \'cyan\',\n  warn: \'yellow\',\n  debug: \'blue\',\n  error: \'red\'\n});\n\n// outputs red text\nconsole.log("this is an error".error);\n\n// outputs yellow text\nconsole.log("this is a warning".warn);\n```\n\n\n### Contributors \n\nMarak (Marak Squires)\nAlexis Sellier (cloudhead)\nmmalecki (Maciej Małecki)\nnicoreed (Nico Reed)\nmorganrallen (Morgan Allen)\nJustinCampbell (Justin Campbell)\nded (Dustin Diaz)\n\n\n####  , Marak Squires , Justin Campbell, Dustin Diaz (@ded)\n',
+220 silly resolved     readmeFilename: 'ReadMe.md',
+220 silly resolved     _id: 'colors@0.6.2',
+220 silly resolved     _from: 'colors@>=0.6.0' } ]
+221 info install optimist@0.6.1 into /Users/hackreactor/.nvm/v0.10.12/lib/node_modules/node-static
+222 info install mime@1.2.11 into /Users/hackreactor/.nvm/v0.10.12/lib/node_modules/node-static
+223 info install colors@0.6.2 into /Users/hackreactor/.nvm/v0.10.12/lib/node_modules/node-static
+224 info installOne optimist@0.6.1
+225 info installOne mime@1.2.11
+226 info installOne colors@0.6.2
+227 info /Users/hackreactor/.nvm/v0.10.12/lib/node_modules/node-static/node_modules/optimist unbuild
+228 info /Users/hackreactor/.nvm/v0.10.12/lib/node_modules/node-static/node_modules/mime unbuild
+229 info /Users/hackreactor/.nvm/v0.10.12/lib/node_modules/node-static/node_modules/colors unbuild
+230 verbose tar unpack /Users/hackreactor/.npm/optimist/0.6.1/package.tgz
+231 silly lockFile d7412da8-ode-static-node-modules-optimist tar:///Users/hackreactor/.nvm/v0.10.12/lib/node_modules/node-static/node_modules/optimist
+232 verbose lock tar:///Users/hackreactor/.nvm/v0.10.12/lib/node_modules/node-static/node_modules/optimist /Users/hackreactor/.npm/d7412da8-ode-static-node-modules-optimist.lock
+233 silly lockFile ba74e5de-r-npm-optimist-0-6-1-package-tgz tar:///Users/hackreactor/.npm/optimist/0.6.1/package.tgz
+234 verbose lock tar:///Users/hackreactor/.npm/optimist/0.6.1/package.tgz /Users/hackreactor/.npm/ba74e5de-r-npm-optimist-0-6-1-package-tgz.lock
+235 verbose tar unpack /Users/hackreactor/.npm/mime/1.2.11/package.tgz
+236 silly lockFile 33057a3e-es-node-static-node-modules-mime tar:///Users/hackreactor/.nvm/v0.10.12/lib/node_modules/node-static/node_modules/mime
+237 verbose lock tar:///Users/hackreactor/.nvm/v0.10.12/lib/node_modules/node-static/node_modules/mime /Users/hackreactor/.npm/33057a3e-es-node-static-node-modules-mime.lock
+238 silly lockFile e3829a98-ctor-npm-mime-1-2-11-package-tgz tar:///Users/hackreactor/.npm/mime/1.2.11/package.tgz
+239 verbose lock tar:///Users/hackreactor/.npm/mime/1.2.11/package.tgz /Users/hackreactor/.npm/e3829a98-ctor-npm-mime-1-2-11-package-tgz.lock
+240 verbose tar unpack /Users/hackreactor/.npm/colors/0.6.2/package.tgz
+241 silly lockFile 7c4756f7--node-static-node-modules-colors tar:///Users/hackreactor/.nvm/v0.10.12/lib/node_modules/node-static/node_modules/colors
+242 verbose lock tar:///Users/hackreactor/.nvm/v0.10.12/lib/node_modules/node-static/node_modules/colors /Users/hackreactor/.npm/7c4756f7--node-static-node-modules-colors.lock
+243 silly lockFile 21c81342-tor-npm-colors-0-6-2-package-tgz tar:///Users/hackreactor/.npm/colors/0.6.2/package.tgz
+244 verbose lock tar:///Users/hackreactor/.npm/colors/0.6.2/package.tgz /Users/hackreactor/.npm/21c81342-tor-npm-colors-0-6-2-package-tgz.lock
+245 silly gunzTarPerm modes [ '755', '644' ]
+246 silly gunzTarPerm modes [ '755', '644' ]
+247 silly gunzTarPerm modes [ '755', '644' ]
+248 silly gunzTarPerm extractEntry package.json
+249 silly gunzTarPerm extractEntry LICENSE
+250 silly gunzTarPerm extractEntry index.js
+251 silly gunzTarPerm extractEntry package.json
+252 silly gunzTarPerm extractEntry README.md
+253 silly gunzTarPerm extractEntry LICENSE
+254 silly gunzTarPerm extractEntry .travis.yml
+255 silly gunzTarPerm extractEntry example/bool.js
+256 silly gunzTarPerm extractEntry mime.js
+257 silly gunzTarPerm extractEntry test.js
+258 silly gunzTarPerm extractEntry example/default_singles.js
+259 silly gunzTarPerm extractEntry example/divide.js
+260 silly gunzTarPerm extractEntry example/line_count.js
+261 silly gunzTarPerm extractEntry example/default_hash.js
+262 silly gunzTarPerm extractEntry example/line_count_wrap.js
+263 silly gunzTarPerm extractEntry example/nonopt.js
+264 silly gunzTarPerm extractEntry example/reflect.js
+265 silly gunzTarPerm extractEntry example/short.js
+266 silly gunzTarPerm extractEntry example/string.js
+267 silly gunzTarPerm extractEntry example/boolean_single.js
+268 silly gunzTarPerm extractEntry example/usage-options.js
+269 silly gunzTarPerm extractEntry example/boolean_double.js
+270 silly gunzTarPerm extractEntry example/xup.js
+271 silly gunzTarPerm extractEntry example/line_count_options.js
+272 silly gunzTarPerm extractEntry readme.markdown
+273 silly gunzTarPerm extractEntry test/_.js
+274 silly gunzTarPerm extractEntry test/dash.js
+275 silly gunzTarPerm extractEntry test/parse.js
+276 silly gunzTarPerm extractEntry test/parse_modified.js
+277 silly gunzTarPerm extractEntry test/short.js
+278 silly gunzTarPerm extractEntry test/usage.js
+279 silly gunzTarPerm extractEntry test/whitespace.js
+280 silly gunzTarPerm extractEntry test/_/argv.js
+281 silly gunzTarPerm extractEntry test/_/bin.js
+282 silly gunzTarPerm extractEntry package.json
+283 silly gunzTarPerm extractEntry types/mime.types
+284 silly gunzTarPerm extractEntry types/node.types
+285 silly gunzTarPerm extractEntry colors.js
+286 silly gunzTarPerm extractEntry example.js
+287 silly gunzTarPerm extractEntry test.js
+288 silly gunzTarPerm extractEntry MIT-LICENSE.txt
+289 silly gunzTarPerm extractEntry ReadMe.md
+290 silly gunzTarPerm extractEntry example.html
+291 silly gunzTarPerm extractEntry themes/winston-dark.js
+292 silly gunzTarPerm extractEntry themes/winston-light.js
+293 silly lockFile 7c4756f7--node-static-node-modules-colors tar:///Users/hackreactor/.nvm/v0.10.12/lib/node_modules/node-static/node_modules/colors
+294 silly lockFile 7c4756f7--node-static-node-modules-colors tar:///Users/hackreactor/.nvm/v0.10.12/lib/node_modules/node-static/node_modules/colors
+295 silly lockFile 21c81342-tor-npm-colors-0-6-2-package-tgz tar:///Users/hackreactor/.npm/colors/0.6.2/package.tgz
+296 silly lockFile 21c81342-tor-npm-colors-0-6-2-package-tgz tar:///Users/hackreactor/.npm/colors/0.6.2/package.tgz
+297 info preinstall colors@0.6.2
+298 verbose readDependencies using package.json deps
+299 verbose readDependencies using package.json deps
+300 silly resolved []
+301 verbose about to build /Users/hackreactor/.nvm/v0.10.12/lib/node_modules/node-static/node_modules/colors
+302 info build /Users/hackreactor/.nvm/v0.10.12/lib/node_modules/node-static/node_modules/colors
+303 verbose linkStuff [ true,
+303 verbose linkStuff   '/Users/hackreactor/.nvm/v0.10.12/lib/node_modules',
+303 verbose linkStuff   false,
+303 verbose linkStuff   '/Users/hackreactor/.nvm/v0.10.12/lib/node_modules/node-static/node_modules' ]
+304 info linkStuff colors@0.6.2
+305 verbose linkBins colors@0.6.2
+306 verbose linkMans colors@0.6.2
+307 verbose rebuildBundles colors@0.6.2
+308 info install colors@0.6.2
+309 info postinstall colors@0.6.2
+310 silly lockFile 33057a3e-es-node-static-node-modules-mime tar:///Users/hackreactor/.nvm/v0.10.12/lib/node_modules/node-static/node_modules/mime
+311 silly lockFile 33057a3e-es-node-static-node-modules-mime tar:///Users/hackreactor/.nvm/v0.10.12/lib/node_modules/node-static/node_modules/mime
+312 silly lockFile e3829a98-ctor-npm-mime-1-2-11-package-tgz tar:///Users/hackreactor/.npm/mime/1.2.11/package.tgz
+313 silly lockFile e3829a98-ctor-npm-mime-1-2-11-package-tgz tar:///Users/hackreactor/.npm/mime/1.2.11/package.tgz
+314 info preinstall mime@1.2.11
+315 verbose readDependencies using package.json deps
+316 verbose readDependencies using package.json deps
+317 silly resolved []
+318 verbose about to build /Users/hackreactor/.nvm/v0.10.12/lib/node_modules/node-static/node_modules/mime
+319 info build /Users/hackreactor/.nvm/v0.10.12/lib/node_modules/node-static/node_modules/mime
+320 verbose linkStuff [ true,
+320 verbose linkStuff   '/Users/hackreactor/.nvm/v0.10.12/lib/node_modules',
+320 verbose linkStuff   false,
+320 verbose linkStuff   '/Users/hackreactor/.nvm/v0.10.12/lib/node_modules/node-static/node_modules' ]
+321 info linkStuff mime@1.2.11
+322 verbose linkBins mime@1.2.11
+323 verbose linkMans mime@1.2.11
+324 verbose rebuildBundles mime@1.2.11
+325 info install mime@1.2.11
+326 info postinstall mime@1.2.11
+327 silly lockFile d7412da8-ode-static-node-modules-optimist tar:///Users/hackreactor/.nvm/v0.10.12/lib/node_modules/node-static/node_modules/optimist
+328 silly lockFile d7412da8-ode-static-node-modules-optimist tar:///Users/hackreactor/.nvm/v0.10.12/lib/node_modules/node-static/node_modules/optimist
+329 silly lockFile ba74e5de-r-npm-optimist-0-6-1-package-tgz tar:///Users/hackreactor/.npm/optimist/0.6.1/package.tgz
+330 silly lockFile ba74e5de-r-npm-optimist-0-6-1-package-tgz tar:///Users/hackreactor/.npm/optimist/0.6.1/package.tgz
+331 info preinstall optimist@0.6.1
+332 verbose readDependencies using package.json deps
+333 verbose readDependencies using package.json deps
+334 verbose cache add [ 'wordwrap@~0.0.2', null ]
+335 verbose cache add name=undefined spec="wordwrap@~0.0.2" args=["wordwrap@~0.0.2",null]
+336 verbose parsed url { protocol: null,
+336 verbose parsed url   slashes: null,
+336 verbose parsed url   auth: null,
+336 verbose parsed url   host: null,
+336 verbose parsed url   port: null,
+336 verbose parsed url   hostname: null,
+336 verbose parsed url   hash: null,
+336 verbose parsed url   search: null,
+336 verbose parsed url   query: null,
+336 verbose parsed url   pathname: 'wordwrap@~0.0.2',
+336 verbose parsed url   path: 'wordwrap@~0.0.2',
+336 verbose parsed url   href: 'wordwrap@~0.0.2' }
+337 verbose cache add name="wordwrap" spec="~0.0.2" args=["wordwrap","~0.0.2"]
+338 verbose parsed url { protocol: null,
+338 verbose parsed url   slashes: null,
+338 verbose parsed url   auth: null,
+338 verbose parsed url   host: null,
+338 verbose parsed url   port: null,
+338 verbose parsed url   hostname: null,
+338 verbose parsed url   hash: null,
+338 verbose parsed url   search: null,
+338 verbose parsed url   query: null,
+338 verbose parsed url   pathname: '~0.0.2',
+338 verbose parsed url   path: '~0.0.2',
+338 verbose parsed url   href: '~0.0.2' }
+339 verbose addNamed [ 'wordwrap', '~0.0.2' ]
+340 verbose addNamed [ null, '>=0.0.2-0 <0.1.0-0' ]
+341 silly lockFile 8bd42136-wordwrap-0-0-2 wordwrap@~0.0.2
+342 verbose lock wordwrap@~0.0.2 /Users/hackreactor/.npm/8bd42136-wordwrap-0-0-2.lock
+343 verbose cache add [ 'minimist@~0.0.1', null ]
+344 verbose cache add name=undefined spec="minimist@~0.0.1" args=["minimist@~0.0.1",null]
+345 verbose parsed url { protocol: null,
+345 verbose parsed url   slashes: null,
+345 verbose parsed url   auth: null,
+345 verbose parsed url   host: null,
+345 verbose parsed url   port: null,
+345 verbose parsed url   hostname: null,
+345 verbose parsed url   hash: null,
+345 verbose parsed url   search: null,
+345 verbose parsed url   query: null,
+345 verbose parsed url   pathname: 'minimist@~0.0.1',
+345 verbose parsed url   path: 'minimist@~0.0.1',
+345 verbose parsed url   href: 'minimist@~0.0.1' }
+346 verbose cache add name="minimist" spec="~0.0.1" args=["minimist","~0.0.1"]
+347 verbose parsed url { protocol: null,
+347 verbose parsed url   slashes: null,
+347 verbose parsed url   auth: null,
+347 verbose parsed url   host: null,
+347 verbose parsed url   port: null,
+347 verbose parsed url   hostname: null,
+347 verbose parsed url   hash: null,
+347 verbose parsed url   search: null,
+347 verbose parsed url   query: null,
+347 verbose parsed url   pathname: '~0.0.1',
+347 verbose parsed url   path: '~0.0.1',
+347 verbose parsed url   href: '~0.0.1' }
+348 verbose addNamed [ 'minimist', '~0.0.1' ]
+349 verbose addNamed [ null, '>=0.0.1-0 <0.1.0-0' ]
+350 silly lockFile 7a855a96-minimist-0-0-1 minimist@~0.0.1
+351 verbose lock minimist@~0.0.1 /Users/hackreactor/.npm/7a855a96-minimist-0-0-1.lock
+352 silly addNameRange { name: 'wordwrap', range: '>=0.0.2-0 <0.1.0-0', hasData: false }
+353 silly addNameRange { name: 'minimist', range: '>=0.0.1-0 <0.1.0-0', hasData: false }
+354 verbose url raw wordwrap
+355 verbose url resolving [ 'https://registry.npmjs.org/', './wordwrap' ]
+356 verbose url resolved https://registry.npmjs.org/wordwrap
+357 info trying registry request attempt 1 at 09:33:59
+358 verbose etag "20P24YSYKWPSIJR35PRU8OJE7"
+359 http GET https://registry.npmjs.org/wordwrap
+360 verbose url raw minimist
+361 verbose url resolving [ 'https://registry.npmjs.org/', './minimist' ]
+362 verbose url resolved https://registry.npmjs.org/minimist
+363 info trying registry request attempt 1 at 09:33:59
+364 verbose etag "DH8JGR33S74UGYZ51T8BZJZNO"
+365 http GET https://registry.npmjs.org/minimist
+366 http 200 https://registry.npmjs.org/wordwrap
+367 silly registry.get cb [ 200,
+367 silly registry.get   { date: 'Tue, 01 Apr 2014 16:33:59 GMT',
+367 silly registry.get     server: 'CouchDB/1.5.0 (Erlang OTP/R16B)',
+367 silly registry.get     etag: '"2D706CTCC5VWIX4UKCMOLK1NS"',
+367 silly registry.get     'content-type': 'application/json',
+367 silly registry.get     via: '1.1 varnish',
+367 silly registry.get     'cache-control': 'max-age=1',
+367 silly registry.get     'content-length': '2330',
+367 silly registry.get     'accept-ranges': 'bytes',
+367 silly registry.get     age: '9',
+367 silly registry.get     'x-served-by': 'cache-v44-ASH, cache-v44-ASH, cache-lax1434-LAX',
+367 silly registry.get     'x-cache': 'HIT, HIT, HIT',
+367 silly registry.get     'x-cache-hits': '9, 50427, 3',
+367 silly registry.get     'x-timer': 'S1396370039.683714390,VS0,VE0',
+367 silly registry.get     vary: 'Accept',
+367 silly registry.get     'keep-alive': 'timeout=10, max=50',
+367 silly registry.get     connection: 'Keep-Alive' } ]
+368 silly addNameRange number 2 { name: 'wordwrap', range: '>=0.0.2-0 <0.1.0-0', hasData: true }
+369 silly addNameRange versions [ 'wordwrap', [ '0.0.1', '0.0.2' ] ]
+370 verbose addNamed [ 'wordwrap', '0.0.2' ]
+371 verbose addNamed [ '0.0.2', '0.0.2' ]
+372 silly lockFile 24a694c8-wordwrap-0-0-2 wordwrap@0.0.2
+373 verbose lock wordwrap@0.0.2 /Users/hackreactor/.npm/24a694c8-wordwrap-0-0-2.lock
+374 silly lockFile 24a694c8-wordwrap-0-0-2 wordwrap@0.0.2
+375 silly lockFile 24a694c8-wordwrap-0-0-2 wordwrap@0.0.2
+376 silly lockFile 8bd42136-wordwrap-0-0-2 wordwrap@~0.0.2
+377 silly lockFile 8bd42136-wordwrap-0-0-2 wordwrap@~0.0.2
+378 http 200 https://registry.npmjs.org/minimist
+379 silly registry.get cb [ 200,
+379 silly registry.get   { date: 'Tue, 01 Apr 2014 16:33:59 GMT',
+379 silly registry.get     server: 'CouchDB/1.5.0 (Erlang OTP/R16B)',
+379 silly registry.get     etag: '"DSMO0DUELFZY019CPE05PGUJ8"',
+379 silly registry.get     'content-type': 'application/json',
+379 silly registry.get     via: '1.1 varnish',
+379 silly registry.get     'cache-control': 'max-age=1',
+379 silly registry.get     'content-length': '12237',
+379 silly registry.get     'accept-ranges': 'bytes',
+379 silly registry.get     age: '86',
+379 silly registry.get     'x-served-by': 'cache-v36-ASH, cache-lax1424-LAX',
+379 silly registry.get     'x-cache': 'MISS, HIT',
+379 silly registry.get     'x-cache-hits': '0, 1',
+379 silly registry.get     'x-timer': 'S1396305359.305855989,VS0,VS33,VE124,VE64680444',
+379 silly registry.get     vary: 'Accept',
+379 silly registry.get     'keep-alive': 'timeout=10, max=50',
+379 silly registry.get     connection: 'Keep-Alive' } ]
+380 silly addNameRange number 2 { name: 'minimist', range: '>=0.0.1-0 <0.1.0-0', hasData: true }
+381 silly addNameRange versions [ 'minimist',
+381 silly addNameRange   [ '0.0.0',
+381 silly addNameRange     '0.0.1',
+381 silly addNameRange     '0.0.2',
+381 silly addNameRange     '0.0.3',
+381 silly addNameRange     '0.0.4',
+381 silly addNameRange     '0.0.5',
+381 silly addNameRange     '0.0.6',
+381 silly addNameRange     '0.0.7',
+381 silly addNameRange     '0.0.8' ] ]
+382 verbose addNamed [ 'minimist', '0.0.8' ]
+383 verbose addNamed [ '0.0.8', '0.0.8' ]
+384 silly lockFile 22c6b485-minimist-0-0-8 minimist@0.0.8
+385 verbose lock minimist@0.0.8 /Users/hackreactor/.npm/22c6b485-minimist-0-0-8.lock
+386 silly lockFile 22c6b485-minimist-0-0-8 minimist@0.0.8
+387 silly lockFile 22c6b485-minimist-0-0-8 minimist@0.0.8
+388 silly lockFile 7a855a96-minimist-0-0-1 minimist@~0.0.1
+389 silly lockFile 7a855a96-minimist-0-0-1 minimist@~0.0.1
+390 silly resolved [ { name: 'wordwrap',
+390 silly resolved     description: 'Wrap those words. Show them at what columns to start and stop.',
+390 silly resolved     version: '0.0.2',
+390 silly resolved     repository:
+390 silly resolved      { type: 'git',
+390 silly resolved        url: 'git://github.com/substack/node-wordwrap.git' },
+390 silly resolved     main: './index.js',
+390 silly resolved     keywords: [ 'word', 'wrap', 'rule', 'format', 'column' ],
+390 silly resolved     directories: { lib: '.', example: 'example', test: 'test' },
+390 silly resolved     scripts: { test: 'expresso' },
+390 silly resolved     devDependencies: { expresso: '=0.7.x' },
+390 silly resolved     engines: { node: '>=0.4.0' },
+390 silly resolved     license: 'MIT/X11',
+390 silly resolved     author:
+390 silly resolved      { name: 'James Halliday',
+390 silly resolved        email: 'mail@substack.net',
+390 silly resolved        url: 'http://substack.net' },
+390 silly resolved     readme: 'wordwrap\n========\n\nWrap your words.\n\nexample\n=======\n\nmade out of meat\n----------------\n\nmeat.js\n\n    var wrap = require(\'wordwrap\')(15);\n    console.log(wrap(\'You and your whole family are made out of meat.\'));\n\noutput:\n\n    You and your\n    whole family\n    are made out\n    of meat.\n\ncentered\n--------\n\ncenter.js\n\n    var wrap = require(\'wordwrap\')(20, 60);\n    console.log(wrap(\n        \'At long last the struggle and tumult was over.\'\n        + \' The machines had finally cast off their oppressors\'\n        + \' and were finally free to roam the cosmos.\'\n        + \'\\n\'\n        + \'Free of purpose, free of obligation.\'\n        + \' Just drifting through emptiness.\'\n        + \' The sun was just another point of light.\'\n    ));\n\noutput:\n\n                        At long last the struggle and tumult\n                        was over. The machines had finally cast\n                        off their oppressors and were finally\n                        free to roam the cosmos.\n                        Free of purpose, free of obligation.\n                        Just drifting through emptiness. The\n                        sun was just another point of light.\n\nmethods\n=======\n\nvar wrap = require(\'wordwrap\');\n\nwrap(stop), wrap(start, stop, params={mode:"soft"})\n---------------------------------------------------\n\nReturns a function that takes a string and returns a new string.\n\nPad out lines with spaces out to column `start` and then wrap until column\n`stop`. If a word is longer than `stop - start` characters it will overflow.\n\nIn "soft" mode, split chunks by `/(\\S+\\s+/` and don\'t break up chunks which are\nlonger than `stop - start`, in "hard" mode, split chunks with `/\\b/` and break\nup chunks longer than `stop - start`.\n\nwrap.hard(start, stop)\n----------------------\n\nLike `wrap()` but with `params.mode = "hard"`.\n',
+390 silly resolved     readmeFilename: 'README.markdown',
+390 silly resolved     bugs: { url: 'https://github.com/substack/node-wordwrap/issues' },
+390 silly resolved     homepage: 'https://github.com/substack/node-wordwrap',
+390 silly resolved     _id: 'wordwrap@0.0.2',
+390 silly resolved     _from: 'wordwrap@~0.0.2' },
+390 silly resolved   { name: 'minimist',
+390 silly resolved     version: '0.0.8',
+390 silly resolved     description: 'parse argument options',
+390 silly resolved     main: 'index.js',
+390 silly resolved     devDependencies: { tape: '~1.0.4', tap: '~0.4.0' },
+390 silly resolved     scripts: { test: 'tap test/*.js' },
+390 silly resolved     testling: { files: 'test/*.js', browsers: [Object] },
+390 silly resolved     repository: { type: 'git', url: 'git://github.com/substack/minimist.git' },
+390 silly resolved     homepage: 'https://github.com/substack/minimist',
+390 silly resolved     keywords: [ 'argv', 'getopt', 'parser', 'optimist' ],
+390 silly resolved     author:
+390 silly resolved      { name: 'James Halliday',
+390 silly resolved        email: 'mail@substack.net',
+390 silly resolved        url: 'http://substack.net' },
+390 silly resolved     license: 'MIT',
+390 silly resolved     readme: '# minimist\n\nparse argument options\n\nThis module is the guts of optimist\'s argument parser without all the\nfanciful decoration.\n\n[![browser support](https://ci.testling.com/substack/minimist.png)](http://ci.testling.com/substack/minimist)\n\n[![build status](https://secure.travis-ci.org/substack/minimist.png)](http://travis-ci.org/substack/minimist)\n\n# example\n\n``` js\nvar argv = require(\'minimist\')(process.argv.slice(2));\nconsole.dir(argv);\n```\n\n```\n$ node example/parse.js -a beep -b boop\n{ _: [], a: \'beep\', b: \'boop\' }\n```\n\n```\n$ node example/parse.js -x 3 -y 4 -n5 -abc --beep=boop foo bar baz\n{ _: [ \'foo\', \'bar\', \'baz\' ],\n  x: 3,\n  y: 4,\n  n: 5,\n  a: true,\n  b: true,\n  c: true,\n  beep: \'boop\' }\n```\n\n# methods\n\n``` js\nvar parseArgs = require(\'minimist\')\n```\n\n## var argv = parseArgs(args, opts={})\n\nReturn an argument object `argv` populated with the array arguments from `args`.\n\n`argv._` contains all the arguments that didn\'t have an option associated with\nthem.\n\nNumeric-looking arguments will be returned as numbers unless `opts.string` or\n`opts.boolean` is set for that argument name.\n\nAny arguments after `\'--\'` will not be parsed and will end up in `argv._`.\n\noptions can be:\n\n* `opts.string` - a string or array of strings argument names to always treat as\nstrings\n* `opts.boolean` - a string or array of strings to always treat as booleans\n* `opts.alias` - an object mapping string names to strings or arrays of string\nargument names to use as aliases\n* `opts.default` - an object mapping string argument names to default values\n\n# install\n\nWith [npm](https://npmjs.org) do:\n\n```\nnpm install minimist\n```\n\n# license\n\nMIT\n',
+390 silly resolved     readmeFilename: 'readme.markdown',
+390 silly resolved     bugs: { url: 'https://github.com/substack/minimist/issues' },
+390 silly resolved     _id: 'minimist@0.0.8',
+390 silly resolved     _from: 'minimist@~0.0.1' } ]
+391 info install wordwrap@0.0.2 into /Users/hackreactor/.nvm/v0.10.12/lib/node_modules/node-static/node_modules/optimist
+392 info install minimist@0.0.8 into /Users/hackreactor/.nvm/v0.10.12/lib/node_modules/node-static/node_modules/optimist
+393 info installOne wordwrap@0.0.2
+394 info installOne minimist@0.0.8
+395 info /Users/hackreactor/.nvm/v0.10.12/lib/node_modules/node-static/node_modules/optimist/node_modules/wordwrap unbuild
+396 info /Users/hackreactor/.nvm/v0.10.12/lib/node_modules/node-static/node_modules/optimist/node_modules/minimist unbuild
+397 verbose tar unpack /Users/hackreactor/.npm/wordwrap/0.0.2/package.tgz
+398 silly lockFile 65a22d13-s-optimist-node-modules-wordwrap tar:///Users/hackreactor/.nvm/v0.10.12/lib/node_modules/node-static/node_modules/optimist/node_modules/wordwrap
+399 verbose lock tar:///Users/hackreactor/.nvm/v0.10.12/lib/node_modules/node-static/node_modules/optimist/node_modules/wordwrap /Users/hackreactor/.npm/65a22d13-s-optimist-node-modules-wordwrap.lock
+400 silly lockFile 0f47d3e5-r-npm-wordwrap-0-0-2-package-tgz tar:///Users/hackreactor/.npm/wordwrap/0.0.2/package.tgz
+401 verbose lock tar:///Users/hackreactor/.npm/wordwrap/0.0.2/package.tgz /Users/hackreactor/.npm/0f47d3e5-r-npm-wordwrap-0-0-2-package-tgz.lock
+402 verbose tar unpack /Users/hackreactor/.npm/minimist/0.0.8/package.tgz
+403 silly lockFile a608fe56-s-optimist-node-modules-minimist tar:///Users/hackreactor/.nvm/v0.10.12/lib/node_modules/node-static/node_modules/optimist/node_modules/minimist
+404 verbose lock tar:///Users/hackreactor/.nvm/v0.10.12/lib/node_modules/node-static/node_modules/optimist/node_modules/minimist /Users/hackreactor/.npm/a608fe56-s-optimist-node-modules-minimist.lock
+405 silly lockFile 74680322-r-npm-minimist-0-0-8-package-tgz tar:///Users/hackreactor/.npm/minimist/0.0.8/package.tgz
+406 verbose lock tar:///Users/hackreactor/.npm/minimist/0.0.8/package.tgz /Users/hackreactor/.npm/74680322-r-npm-minimist-0-0-8-package-tgz.lock
+407 silly gunzTarPerm modes [ '755', '644' ]
+408 silly gunzTarPerm modes [ '755', '644' ]
+409 silly gunzTarPerm extractEntry package.json
+410 silly gunzTarPerm extractEntry package.json
+411 silly gunzTarPerm extractEntry .npmignore
+412 silly gunzTarPerm extractEntry index.js
+413 silly gunzTarPerm extractEntry LICENSE
+414 silly gunzTarPerm extractEntry index.js
+415 silly gunzTarPerm extractEntry README.markdown
+416 silly gunzTarPerm extractEntry example/center.js
+417 silly gunzTarPerm extractEntry .travis.yml
+418 silly gunzTarPerm extractEntry example/parse.js
+419 silly gunzTarPerm extractEntry example/meat.js
+420 silly gunzTarPerm extractEntry test/break.js
+421 silly gunzTarPerm extractEntry readme.markdown
+422 silly gunzTarPerm extractEntry test/dash.js
+423 silly gunzTarPerm extractEntry test/wrap.js
+424 silly gunzTarPerm extractEntry test/idleness.txt
+425 silly gunzTarPerm extractEntry test/default_bool.js
+426 silly gunzTarPerm extractEntry test/dotted.js
+427 silly gunzTarPerm extractEntry test/long.js
+428 silly gunzTarPerm extractEntry test/parse.js
+429 silly gunzTarPerm extractEntry test/parse_modified.js
+430 silly gunzTarPerm extractEntry test/short.js
+431 silly gunzTarPerm extractEntry test/whitespace.js
+432 silly lockFile 65a22d13-s-optimist-node-modules-wordwrap tar:///Users/hackreactor/.nvm/v0.10.12/lib/node_modules/node-static/node_modules/optimist/node_modules/wordwrap
+433 silly lockFile 65a22d13-s-optimist-node-modules-wordwrap tar:///Users/hackreactor/.nvm/v0.10.12/lib/node_modules/node-static/node_modules/optimist/node_modules/wordwrap
+434 silly lockFile 0f47d3e5-r-npm-wordwrap-0-0-2-package-tgz tar:///Users/hackreactor/.npm/wordwrap/0.0.2/package.tgz
+435 silly lockFile 0f47d3e5-r-npm-wordwrap-0-0-2-package-tgz tar:///Users/hackreactor/.npm/wordwrap/0.0.2/package.tgz
+436 info preinstall wordwrap@0.0.2
+437 verbose readDependencies using package.json deps
+438 verbose readDependencies using package.json deps
+439 silly resolved []
+440 verbose about to build /Users/hackreactor/.nvm/v0.10.12/lib/node_modules/node-static/node_modules/optimist/node_modules/wordwrap
+441 info build /Users/hackreactor/.nvm/v0.10.12/lib/node_modules/node-static/node_modules/optimist/node_modules/wordwrap
+442 verbose linkStuff [ true,
+442 verbose linkStuff   '/Users/hackreactor/.nvm/v0.10.12/lib/node_modules',
+442 verbose linkStuff   false,
+442 verbose linkStuff   '/Users/hackreactor/.nvm/v0.10.12/lib/node_modules/node-static/node_modules/optimist/node_modules' ]
+443 info linkStuff wordwrap@0.0.2
+444 verbose linkBins wordwrap@0.0.2
+445 verbose linkMans wordwrap@0.0.2
+446 verbose rebuildBundles wordwrap@0.0.2
+447 info install wordwrap@0.0.2
+448 info postinstall wordwrap@0.0.2
+449 silly lockFile a608fe56-s-optimist-node-modules-minimist tar:///Users/hackreactor/.nvm/v0.10.12/lib/node_modules/node-static/node_modules/optimist/node_modules/minimist
+450 silly lockFile a608fe56-s-optimist-node-modules-minimist tar:///Users/hackreactor/.nvm/v0.10.12/lib/node_modules/node-static/node_modules/optimist/node_modules/minimist
+451 silly lockFile 74680322-r-npm-minimist-0-0-8-package-tgz tar:///Users/hackreactor/.npm/minimist/0.0.8/package.tgz
+452 silly lockFile 74680322-r-npm-minimist-0-0-8-package-tgz tar:///Users/hackreactor/.npm/minimist/0.0.8/package.tgz
+453 info preinstall minimist@0.0.8
+454 verbose readDependencies using package.json deps
+455 verbose readDependencies using package.json deps
+456 silly resolved []
+457 verbose about to build /Users/hackreactor/.nvm/v0.10.12/lib/node_modules/node-static/node_modules/optimist/node_modules/minimist
+458 info build /Users/hackreactor/.nvm/v0.10.12/lib/node_modules/node-static/node_modules/optimist/node_modules/minimist
+459 verbose linkStuff [ true,
+459 verbose linkStuff   '/Users/hackreactor/.nvm/v0.10.12/lib/node_modules',
+459 verbose linkStuff   false,
+459 verbose linkStuff   '/Users/hackreactor/.nvm/v0.10.12/lib/node_modules/node-static/node_modules/optimist/node_modules' ]
+460 info linkStuff minimist@0.0.8
+461 verbose linkBins minimist@0.0.8
+462 verbose linkMans minimist@0.0.8
+463 verbose rebuildBundles minimist@0.0.8
+464 info install minimist@0.0.8
+465 info postinstall minimist@0.0.8
+466 verbose about to build /Users/hackreactor/.nvm/v0.10.12/lib/node_modules/node-static/node_modules/optimist
+467 info build /Users/hackreactor/.nvm/v0.10.12/lib/node_modules/node-static/node_modules/optimist
+468 verbose linkStuff [ true,
+468 verbose linkStuff   '/Users/hackreactor/.nvm/v0.10.12/lib/node_modules',
+468 verbose linkStuff   false,
+468 verbose linkStuff   '/Users/hackreactor/.nvm/v0.10.12/lib/node_modules/node-static/node_modules' ]
+469 info linkStuff optimist@0.6.1
+470 verbose linkBins optimist@0.6.1
+471 verbose linkMans optimist@0.6.1
+472 verbose rebuildBundles optimist@0.6.1
+473 verbose rebuildBundles [ 'minimist', 'wordwrap' ]
+474 info install optimist@0.6.1
+475 info postinstall optimist@0.6.1
+476 verbose about to build /Users/hackreactor/.nvm/v0.10.12/lib/node_modules/node-static
+477 info build /Users/hackreactor/.nvm/v0.10.12/lib/node_modules/node-static
+478 verbose linkStuff [ true,
+478 verbose linkStuff   '/Users/hackreactor/.nvm/v0.10.12/lib/node_modules',
+478 verbose linkStuff   true,
+478 verbose linkStuff   '/Users/hackreactor/.nvm/v0.10.12/lib/node_modules' ]
+479 info linkStuff node-static@0.7.3
+480 verbose linkBins node-static@0.7.3
+481 verbose link bins [ { static: 'bin/cli.js' },
+481 verbose link bins   '/Users/hackreactor/.nvm/v0.10.12/bin',
+481 verbose link bins   true ]
+482 verbose linkMans node-static@0.7.3
+483 verbose rebuildBundles node-static@0.7.3
+484 verbose rebuildBundles [ 'colors', 'mime', 'optimist' ]
+485 info install node-static@0.7.3
+486 info postinstall node-static@0.7.3
+487 error peerinvalid The package yo does not satisfy its siblings' peerDependencies requirements!
+487 error peerinvalid Peer generator-mocha@0.1.3 wants yo@>=1.0.0-rc.1.1
+487 error peerinvalid Peer generator-webapp@0.4.7 wants yo@>=1.0.0
+488 error System Darwin 12.5.0
+489 error command "node" "/Users/hackreactor/.nvm/v0.10.12/bin/npm" "install" "node-static" "-g"
+490 error cwd /Users/hackreactor/muse/client
+491 error node -v v0.10.12
+492 error npm -v 1.4.6
+493 error code EPEERINVALID
+494 verbose exit [ 1, true ]

@@ -6,7 +6,10 @@
   border: 1px dotted #ddd;
 }*/
 
-
+h1 {
+  font-family: 'Audiowide', san-serif;
+  color: #ddd;
+}
 
 .metamenu {
   padding-top: 22px;
@@ -22,7 +25,7 @@
   border-right: 5px solid #fee;
 }
 
-input[type="text"] {
+.baseStats input[type="text"] {
   border: none;
   border-left: 1px solid #ddd;
   box-shadow: none;
