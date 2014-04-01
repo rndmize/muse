@@ -1,0 +1,40 @@
+<!doctype html>
+<html class="no-js" lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Muse Client</title>
+    <link rel="stylesheet" href="css/foundation.css" />
+    <link rel="stylesheet" href="css/desktop.css" />
+    <script src="js/vendor/modernizr.js"></script>
+  </head>
+  <body ng-app="muse">
+
+    <div class="row">
+      <div class="large-10 columns">
+        <h2>Muse</h2>
+      </div>
+      <div class="large-2 columns metamenu">
+        <a href="#" data-dropdown="drop1">Trenton Veris</a>
+          <ul id="drop1" class="f-dropdown" data-dropdown-content>
+            <li><a href="#newChar">New Character</a></li>
+            <li><a href="#">Father Dure</a></li>
+            <li><a href="#">Kusanagi Motoko</a></li>
+            <li><a href="#stats">Logout</a></li>
+          </ul>
+      </div>
+    </div>
+    <div ng-view></div>
+
+    <script src="js/vendor/jquery.js"></script>
+    <script src="js/foundation.min.js"></script>
+    <script src="https://cdn.firebase.com/js/client/1.0.6/firebase.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.6/angular.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.6/angular-route.js"></script>
+    <script src="https://cdn.firebase.com/libs/angularfire/0.7.1/angularfire.min.js"></script>
+    <script src="app.js"></script>
+    <script>
+      $(document).foundation();
+    </script>
+  </body>
+</html>

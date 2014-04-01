@@ -1,0 +1,30 @@
+/*.row {
+  border: 1px solid #eee;
+}
+*/
+/*.columns {
+  border: 1px dotted #ddd;
+}*/
+
+
+
+.metamenu {
+  padding-top: 22px;
+}
+
+.metamenu ul li:first-child {
+  border-bottom: 1px solid #eef;
+  border-right: 5px solid #eef;
+}
+
+.metamenu ul li:last-child {
+  border-top: 1px solid #fee;
+  border-right: 5px solid #fee;
+}
+
+input[type="text"] {
+  border: none;
+  border-left: 1px solid #ddd;
+  box-shadow: none;
+  font-size: 1.2em;
+}

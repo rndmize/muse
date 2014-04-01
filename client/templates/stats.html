@@ -1,0 +1,93 @@
+<div ng-controller="BaseStatsCtrl">
+  <div class="row">
+    <div class="large-3 columns" ng-repeat="stat in baseStats">
+      <div class="row" ng-model="stat">
+        <div class="small-6 columns">
+          <label for="{{stat.name}}" class="right inline">{{stat.name}}</label>
+        </div>
+        <div class="small-6 columns">
+          <input id="{{stat.name}}" type="text" value="{{stat.val}}" />
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+
+
+  <div class="row">
+    <div class="large-3 columns">
+      <div class="row">
+        <div class="small-6 columns">
+          <label for="cog" class="right inline">Cognition</label>
+        </div>
+        <div class="small-6 columns">
+          <input id="cog" type="text" />
+        </div>
+      </div>
+    </div>
+    <div class="large-3 columns">
+      <div class="row">
+        <div class="small-6 columns">
+          <label for="cor" class="right inline">Coordination</label>
+        </div>
+        <div class="small-6 columns">
+          <input id="cor" type="text" />
+        </div>
+      </div>
+    </div>
+    <div class="large-3 columns">
+      <div class="row">
+        <div class="small-6 columns">
+          <label for="int" class="right inline">Intuition</label>
+        </div>
+        <div class="small-6 columns">
+          <input id="int" type="text" />
+        </div>
+      </div>
+    </div>
+    <div class="large-3 columns">
+      <div class="row">
+        <div class="small-6 columns">
+          <label for="ref" class="right inline">Reflexes</label>
+        </div>
+        <div class="small-6 columns">
+          <input id="ref" type="text" />
+        </div>
+      </div>
+    </div>
+    <div class="large-3 columns">
+      <div class="row">
+        <div class="small-6 columns">
+          <label for="sav" class="right inline">Savvy</label>
+        </div>
+        <div class="small-6 columns">
+          <input id="sav" type="text" />
+        </div>
+      </div>
+    </div>
+    <div class="large-3 columns">
+      <div class="row">
+        <div class="small-6 columns">
+          <label for="som" class="right inline">Somatics</label>
+        </div>
+        <div class="small-6 columns">
+          <input id="som" type="text" />
+        </div>
+      </div>
+    </div>
+    <div class="large-3 columns">
+      <div class="row">
+        <div class="small-6 columns">
+          <label for="wil" class="right inline">Willpower</label>
+        </div>
+        <div class="small-6 columns">
+          <input id="wil" type="text" />
+        </div>
+      </div>
+    </div>
+    <div class="large-3 columns">
+    </div>
+  </div>
