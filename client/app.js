@@ -26,13 +26,12 @@ muse.config(['$routeProvider',
 ]);
 
 muse.factory('fbService', ['$firebase', function($firebase) {
-  var ref = new Firebase('https://sweltering-fire-1770.firebaseio.com/character');
+  var ref = new Firebase('https://sweltering-fire-1770.firebaseio.com/character/baseStats');
   return $firebase(ref);
 }]);
 
 muse.controller('BaseStatsCtrl', ['$scope', 'fbService',
   function($scope, service) {
-    //$scope.baseStats = {};
     service.$bind($scope, 'baseStats');
     console.log($scope);
     // $scope.$on('change', function() {
@@ -49,9 +48,12 @@ muse.controller('LoginCtrl', ['$scope', '$firebaseSimpleLogin',
   }
 ]);
 
-muse.controller('LogCtrl', ['$scope', 'fbService',
-  function($scope) {
-    // $scope.$on('change', function() {
-    // });
+muse.controller('LogCtrl', ['$scope', 'fbService', '$firebase',
+  function($scope, service, $firebase) {
+    var ref = new Firebase('https://sweltering-fire-1770.firebaseio.com/log');
+    $scope.messages = $firebase(ref);
+    service.$on('change', function() {
+      console.log('change');
+    });
   }
 ]);
