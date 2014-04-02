@@ -52,8 +52,12 @@ muse.controller('LogCtrl', ['$scope', 'fbService', '$firebase',
   function($scope, service, $firebase) {
     var ref = new Firebase('https://sweltering-fire-1770.firebaseio.com/log');
     $scope.messages = $firebase(ref);
-    service.$on('change', function() {
-      console.log('change');
+    service.$on('change', function(e) {
+      $scope.messages.$add(e + ' was changed');
+      console.log('change', e);
     });
   }
 ]);
+
+
+
